@@ -1,0 +1,562 @@
+date,region,sku_id,medicine_name,category,actual_units,baseline_units,z_score,deviation_pct,severity,alert_reason,recommended_reorder_qty,reorder_by_date,dengue_alert_level,flu_alert_level
+2024-12-23,Northern,SKU012,Amlodipine 5mg,Cardiovascular,161,133,4.33,20.9,CRITICAL,Demand spike detected,402,2025-01-06,LOW,LOW
+2024-12-16,Eastern,SKU011,Metformin 500mg,Diabetes,216,172,6.73,25.6,CRITICAL,Dengue outbreak signal,540,2024-12-30,MEDIUM,LOW
+2024-12-02,Sabaragamuwa,SKU003,Amoxicillin 500mg,Antibiotic,110,90,5.35,22.2,CRITICAL,Dengue outbreak signal,275,2024-12-16,HIGH,LOW
+2024-12-02,Sabaragamuwa,SKU014,Zinc Supplement,Supplement,92,71,10.21,29.3,CRITICAL,Dengue outbreak signal,230,2024-12-16,HIGH,LOW
+2024-11-25,Central,SKU002,Ibuprofen 400mg,Antipyretic,415,307,5.14,35.0,CRITICAL,Dengue outbreak signal,1037,2024-12-09,HIGH,LOW
+2024-11-25,Central,SKU014,Zinc Supplement,Supplement,190,151,4.39,25.7,CRITICAL,Dengue outbreak signal,475,2024-12-09,HIGH,LOW
+2024-11-25,Western,SKU003,Amoxicillin 500mg,Antibiotic,940,691,5.07,36.1,CRITICAL,Dengue outbreak signal,2350,2024-12-09,HIGH,LOW
+2024-11-18,Eastern,SKU007,Paediatric Paracetamol Syrup,Paediatric,205,150,4.47,36.8,CRITICAL,Dengue outbreak signal,512,2024-12-02,HIGH,LOW
+2024-11-18,Eastern,SKU013,Vitamin C 500mg,Supplement,181,147,4.67,22.9,CRITICAL,Dengue outbreak signal,452,2024-12-02,HIGH,LOW
+2024-11-18,North Western,SKU003,Amoxicillin 500mg,Antibiotic,264,220,4.27,19.9,CRITICAL,Dengue outbreak signal,660,2024-12-02,HIGH,LOW
+2024-11-18,North Western,SKU004,Azithromycin 250mg,Antibiotic,201,148,4.59,36.0,CRITICAL,Dengue outbreak signal,502,2024-12-02,HIGH,LOW
+2024-11-18,Uva,SKU002,Ibuprofen 400mg,Antipyretic,154,95,5.52,62.1,CRITICAL,Dengue outbreak signal,385,2024-12-02,HIGH,LOW
+2024-11-11,Central,SKU006,ORS Sachets,Rehydration,583,358,4.75,62.6,CRITICAL,Dengue outbreak signal,1457,2024-11-25,HIGH,LOW
+2024-11-11,Eastern,SKU002,Ibuprofen 400mg,Antipyretic,213,155,5.91,37.6,CRITICAL,Dengue outbreak signal,532,2024-11-25,HIGH,LOW
+2024-11-11,Eastern,SKU005,Dengue Rapid Test Kit,Diagnostics,94,48,4.48,95.8,CRITICAL,Dengue outbreak signal,235,2024-11-25,HIGH,LOW
+2024-11-11,Eastern,SKU007,Paediatric Paracetamol Syrup,Paediatric,173,144,4.6,20.6,CRITICAL,Dengue outbreak signal,432,2024-11-25,HIGH,LOW
+2024-11-11,North Central,SKU005,Dengue Rapid Test Kit,Diagnostics,71,42,10.47,69.7,CRITICAL,Dengue outbreak signal,177,2024-11-25,HIGH,LOW
+2024-11-11,Northern,SKU005,Dengue Rapid Test Kit,Diagnostics,96,46,4.92,107.2,CRITICAL,Dengue outbreak signal,240,2024-11-25,HIGH,LOW
+2024-11-11,Northern,SKU013,Vitamin C 500mg,Supplement,187,137,4.27,36.7,CRITICAL,Dengue outbreak signal,467,2024-11-25,HIGH,LOW
+2024-11-11,Sabaragamuwa,SKU008,Children's Multivitamin,Paediatric,104,84,4.64,24.6,CRITICAL,Dengue outbreak signal,260,2024-11-25,HIGH,LOW
+2024-11-11,Southern,SKU002,Ibuprofen 400mg,Antipyretic,381,241,4.32,58.3,CRITICAL,Dengue outbreak signal,952,2024-11-25,HIGH,LOW
+2024-11-11,Southern,SKU006,ORS Sachets,Rehydration,529,316,4.93,67.3,CRITICAL,Dengue outbreak signal,1322,2024-11-25,HIGH,LOW
+2024-11-11,Uva,SKU005,Dengue Rapid Test Kit,Diagnostics,50,32,6.23,57.9,CRITICAL,Dengue outbreak signal,125,2024-11-25,HIGH,LOW
+2024-11-11,Western,SKU005,Dengue Rapid Test Kit,Diagnostics,637,344,4.1,84.9,CRITICAL,Dengue outbreak signal,1592,2024-11-25,HIGH,LOW
+2024-11-11,Western,SKU006,ORS Sachets,Rehydration,2296,1530,4.19,50.0,CRITICAL,Dengue outbreak signal,5740,2024-11-25,HIGH,LOW
+2024-11-04,Central,SKU005,Dengue Rapid Test Kit,Diagnostics,154,90,6.33,72.1,CRITICAL,Dengue outbreak signal,385,2024-11-18,MEDIUM,LOW
+2024-11-04,Central,SKU007,Paediatric Paracetamol Syrup,Paediatric,357,226,6.2,57.7,CRITICAL,Dengue outbreak signal,892,2024-11-18,MEDIUM,LOW
+2024-11-04,Eastern,SKU006,ORS Sachets,Rehydration,281,197,14.76,42.6,CRITICAL,Dengue outbreak signal,702,2024-11-18,MEDIUM,LOW
+2024-11-04,North Central,SKU006,ORS Sachets,Rehydration,206,153,5.18,34.9,CRITICAL,Dengue outbreak signal,515,2024-11-18,MEDIUM,LOW
+2024-11-04,North Western,SKU005,Dengue Rapid Test Kit,Diagnostics,150,94,5.24,60.1,CRITICAL,Dengue outbreak signal,375,2024-11-18,MEDIUM,LOW
+2024-11-04,Northern,SKU006,ORS Sachets,Rehydration,262,184,4.8,42.0,CRITICAL,Dengue outbreak signal,655,2024-11-18,MEDIUM,LOW
+2024-11-04,Sabaragamuwa,SKU001,Paracetamol 500mg,Antipyretic,246,188,4.28,30.5,CRITICAL,Dengue outbreak signal,615,2024-11-18,MEDIUM,LOW
+2024-11-04,Sabaragamuwa,SKU005,Dengue Rapid Test Kit,Diagnostics,56,36,4.71,54.8,CRITICAL,Dengue outbreak signal,140,2024-11-18,MEDIUM,LOW
+2024-11-04,Sabaragamuwa,SKU006,ORS Sachets,Rehydration,198,153,5.17,29.1,CRITICAL,Dengue outbreak signal,495,2024-11-18,MEDIUM,LOW
+2024-11-04,Southern,SKU001,Paracetamol 500mg,Antipyretic,537,409,5.27,31.2,CRITICAL,Dengue outbreak signal,1342,2024-11-18,MEDIUM,LOW
+2024-11-04,Southern,SKU005,Dengue Rapid Test Kit,Diagnostics,114,78,5.21,45.8,CRITICAL,Dengue outbreak signal,285,2024-11-18,MEDIUM,LOW
+2024-11-04,Southern,SKU007,Paediatric Paracetamol Syrup,Paediatric,300,213,4.59,40.7,CRITICAL,Dengue outbreak signal,750,2024-11-18,MEDIUM,LOW
+2024-11-04,Uva,SKU006,ORS Sachets,Rehydration,179,116,4.52,54.1,CRITICAL,Dengue outbreak signal,447,2024-11-18,MEDIUM,LOW
+2024-10-28,North Central,SKU014,Zinc Supplement,Supplement,74,56,5.74,31.4,CRITICAL,Demand spike detected,185,2024-11-11,LOW,LOW
+2024-10-21,Eastern,SKU008,Children's Multivitamin,Paediatric,119,102,4.72,17.0,CRITICAL,Demand spike detected,297,2024-11-04,LOW,LOW
+2024-10-21,Sabaragamuwa,SKU007,Paediatric Paracetamol Syrup,Paediatric,154,110,4.67,39.6,CRITICAL,Demand spike detected,385,2024-11-04,LOW,LOW
+2024-10-14,Sabaragamuwa,SKU004,Azithromycin 250mg,Antibiotic,73,54,4.47,34.4,CRITICAL,Demand spike detected,182,2024-10-28,LOW,LOW
+2024-10-14,Southern,SKU013,Vitamin C 500mg,Supplement,236,208,4.57,13.3,CRITICAL,Demand spike detected,590,2024-10-28,LOW,LOW
+2024-10-14,Uva,SKU004,Azithromycin 250mg,Antibiotic,55,46,8.39,18.7,CRITICAL,Demand spike detected,137,2024-10-28,LOW,LOW
+2024-10-07,Sabaragamuwa,SKU007,Paediatric Paracetamol Syrup,Paediatric,127,110,4.09,14.9,CRITICAL,Demand spike detected,317,2024-10-21,LOW,LOW
+2024-09-23,North Central,SKU005,Dengue Rapid Test Kit,Diagnostics,54,38,7.02,42.1,CRITICAL,Demand spike detected,135,2024-10-07,LOW,LOW
+2024-09-23,Southern,SKU001,Paracetamol 500mg,Antipyretic,425,365,4.32,16.3,CRITICAL,Demand spike detected,1062,2024-10-07,LOW,LOW
+2024-09-16,Central,SKU015,Omeprazole 20mg,Gastrointestinal,232,181,4.51,28.3,CRITICAL,Demand spike detected,580,2024-09-30,LOW,LOW
+2024-09-02,Northern,SKU015,Omeprazole 20mg,Gastrointestinal,126,98,4.62,28.1,CRITICAL,Demand spike detected,315,2024-09-16,LOW,LOW
+2024-08-19,North Western,SKU012,Amlodipine 5mg,Cardiovascular,364,288,5.24,26.6,CRITICAL,Flu season spike,910,2024-09-02,LOW,MEDIUM
+2024-08-12,North Central,SKU011,Metformin 500mg,Diabetes,163,139,4.54,17.5,CRITICAL,Flu season spike,407,2024-08-26,LOW,MEDIUM
+2024-08-05,Southern,SKU002,Ibuprofen 400mg,Antipyretic,351,279,4.04,25.7,CRITICAL,Flu season spike,877,2024-08-19,LOW,HIGH
+2024-07-22,Eastern,SKU008,Children's Multivitamin,Paediatric,140,98,5.37,42.4,CRITICAL,Flu season spike,350,2024-08-05,LOW,HIGH
+2024-07-22,Uva,SKU009,Salbutamol Inhaler,Respiratory,49,35,4.18,38.7,CRITICAL,Flu season spike,122,2024-08-05,LOW,HIGH
+2024-06-24,North Western,SKU011,Metformin 500mg,Diabetes,414,325,4.15,27.5,CRITICAL,Demand spike detected,1035,2024-07-08,LOW,LOW
+2024-05-27,Uva,SKU001,Paracetamol 500mg,Antipyretic,277,173,4.16,60.4,CRITICAL,Dengue outbreak signal,692,2024-06-10,HIGH,LOW
+2024-05-20,Central,SKU006,ORS Sachets,Rehydration,806,425,5.38,89.6,CRITICAL,Dengue outbreak signal,2015,2024-06-03,HIGH,LOW
+2024-05-20,North Western,SKU005,Dengue Rapid Test Kit,Diagnostics,226,116,4.25,94.5,CRITICAL,Dengue outbreak signal,565,2024-06-03,HIGH,LOW
+2024-05-20,North Western,SKU006,ORS Sachets,Rehydration,789,483,4.0,63.4,CRITICAL,Dengue outbreak signal,1972,2024-06-03,HIGH,LOW
+2024-05-20,Northern,SKU002,Ibuprofen 400mg,Antipyretic,211,162,5.3,30.7,CRITICAL,Dengue outbreak signal,527,2024-06-03,HIGH,LOW
+2024-05-20,Sabaragamuwa,SKU006,ORS Sachets,Rehydration,351,187,4.83,87.5,CRITICAL,Dengue outbreak signal,877,2024-06-03,HIGH,LOW
+2024-05-20,Sabaragamuwa,SKU013,Vitamin C 500mg,Supplement,160,114,4.16,40.4,CRITICAL,Dengue outbreak signal,400,2024-06-03,HIGH,LOW
+2024-05-20,Southern,SKU001,Paracetamol 500mg,Antipyretic,722,387,4.45,86.4,CRITICAL,Dengue outbreak signal,1805,2024-06-03,HIGH,LOW
+2024-05-20,Southern,SKU005,Dengue Rapid Test Kit,Diagnostics,212,102,4.15,107.2,CRITICAL,Dengue outbreak signal,530,2024-06-03,HIGH,LOW
+2024-05-20,Uva,SKU006,ORS Sachets,Rehydration,216,131,5.2,65.3,CRITICAL,Dengue outbreak signal,540,2024-06-03,HIGH,LOW
+2024-05-20,Western,SKU002,Ibuprofen 400mg,Antipyretic,1568,1059,5.12,48.1,CRITICAL,Dengue outbreak signal,3920,2024-06-03,HIGH,LOW
+2024-05-13,Central,SKU005,Dengue Rapid Test Kit,Diagnostics,193,94,6.53,106.0,CRITICAL,Dengue outbreak signal,482,2024-05-27,HIGH,LOW
+2024-05-13,Eastern,SKU003,Amoxicillin 500mg,Antibiotic,134,100,6.02,34.2,CRITICAL,Dengue outbreak signal,335,2024-05-27,HIGH,LOW
+2024-05-13,Eastern,SKU005,Dengue Rapid Test Kit,Diagnostics,89,52,4.91,72.8,CRITICAL,Dengue outbreak signal,222,2024-05-27,HIGH,LOW
+2024-05-13,North Central,SKU001,Paracetamol 500mg,Antipyretic,323,197,4.03,63.8,CRITICAL,Dengue outbreak signal,807,2024-05-27,HIGH,LOW
+2024-05-13,North Western,SKU001,Paracetamol 500mg,Antipyretic,877,525,9.4,67.1,CRITICAL,Dengue outbreak signal,2192,2024-05-27,HIGH,LOW
+2024-05-13,North Western,SKU005,Dengue Rapid Test Kit,Diagnostics,162,104,4.02,55.3,CRITICAL,Dengue outbreak signal,405,2024-05-27,HIGH,LOW
+2024-05-13,North Western,SKU010,Cetirizine 10mg,Antihistamine,290,231,4.18,25.7,CRITICAL,Dengue outbreak signal,725,2024-05-27,HIGH,LOW
+2024-05-13,North Western,SKU014,Zinc Supplement,Supplement,200,144,5.23,38.7,CRITICAL,Dengue outbreak signal,500,2024-05-27,HIGH,LOW
+2024-05-13,Northern,SKU006,ORS Sachets,Rehydration,339,195,4.52,74.1,CRITICAL,Dengue outbreak signal,847,2024-05-27,HIGH,LOW
+2024-05-13,Northern,SKU010,Cetirizine 10mg,Antihistamine,150,108,4.32,39.3,CRITICAL,Dengue outbreak signal,375,2024-05-27,HIGH,LOW
+2024-05-13,Sabaragamuwa,SKU002,Ibuprofen 400mg,Antipyretic,169,112,7.17,51.6,CRITICAL,Dengue outbreak signal,422,2024-05-27,HIGH,LOW
+2024-05-13,Sabaragamuwa,SKU005,Dengue Rapid Test Kit,Diagnostics,82,39,5.36,109.4,CRITICAL,Dengue outbreak signal,205,2024-05-27,HIGH,LOW
+2024-05-13,Western,SKU010,Cetirizine 10mg,Antihistamine,1137,749,4.89,51.8,CRITICAL,Dengue outbreak signal,2842,2024-05-27,HIGH,LOW
+2024-05-06,Central,SKU005,Dengue Rapid Test Kit,Diagnostics,122,86,4.81,41.3,CRITICAL,Dengue outbreak signal,305,2024-05-20,MEDIUM,LOW
+2024-05-06,North Central,SKU002,Ibuprofen 400mg,Antipyretic,194,123,4.88,58.2,CRITICAL,Dengue outbreak signal,485,2024-05-20,MEDIUM,LOW
+2024-05-06,North Central,SKU005,Dengue Rapid Test Kit,Diagnostics,66,40,6.01,65.7,CRITICAL,Dengue outbreak signal,165,2024-05-20,MEDIUM,LOW
+2024-05-06,North Western,SKU002,Ibuprofen 400mg,Antipyretic,476,283,10.54,68.1,CRITICAL,Dengue outbreak signal,1190,2024-05-20,MEDIUM,LOW
+2024-05-06,Northern,SKU003,Amoxicillin 500mg,Antibiotic,131,98,5.83,33.7,CRITICAL,Dengue outbreak signal,327,2024-05-20,MEDIUM,LOW
+2024-05-06,Northern,SKU005,Dengue Rapid Test Kit,Diagnostics,77,44,5.11,75.7,CRITICAL,Dengue outbreak signal,192,2024-05-20,MEDIUM,LOW
+2024-05-06,Sabaragamuwa,SKU003,Amoxicillin 500mg,Antibiotic,113,81,7.39,39.8,CRITICAL,Dengue outbreak signal,282,2024-05-20,MEDIUM,LOW
+2024-05-06,Sabaragamuwa,SKU006,ORS Sachets,Rehydration,231,169,6.9,36.4,CRITICAL,Dengue outbreak signal,577,2024-05-20,MEDIUM,LOW
+2024-05-06,Southern,SKU005,Dengue Rapid Test Kit,Diagnostics,129,86,5.98,49.7,CRITICAL,Dengue outbreak signal,322,2024-05-20,MEDIUM,LOW
+2024-05-06,Southern,SKU006,ORS Sachets,Rehydration,473,298,4.92,58.7,CRITICAL,Dengue outbreak signal,1182,2024-05-20,MEDIUM,LOW
+2024-05-06,Uva,SKU010,Cetirizine 10mg,Antihistamine,96,60,4.37,61.3,CRITICAL,Dengue outbreak signal,240,2024-05-20,MEDIUM,LOW
+2024-04-29,Northern,SKU011,Metformin 500mg,Diabetes,190,165,4.22,15.0,CRITICAL,Demand spike detected,475,2024-05-13,LOW,LOW
+2024-04-29,Northern,SKU015,Omeprazole 20mg,Gastrointestinal,108,93,6.13,16.5,CRITICAL,Demand spike detected,270,2024-05-13,LOW,LOW
+2024-04-15,North Central,SKU006,ORS Sachets,Rehydration,212,162,5.55,30.9,CRITICAL,Demand spike detected,530,2024-04-29,LOW,LOW
+2024-04-15,North Western,SKU006,ORS Sachets,Rehydration,485,415,4.38,16.9,CRITICAL,Demand spike detected,1212,2024-04-29,LOW,LOW
+2024-04-08,Eastern,SKU008,Children's Multivitamin,Paediatric,140,99,4.24,41.7,CRITICAL,Demand spike detected,350,2024-04-22,LOW,LOW
+2024-03-18,Sabaragamuwa,SKU011,Metformin 500mg,Diabetes,194,129,4.69,50.8,CRITICAL,Demand spike detected,485,2024-04-01,LOW,LOW
+2024-03-04,Western,SKU015,Omeprazole 20mg,Gastrointestinal,834,697,4.33,19.7,CRITICAL,Demand spike detected,2085,2024-03-18,LOW,LOW
+2024-02-26,North Western,SKU011,Metformin 500mg,Diabetes,445,332,4.78,34.0,CRITICAL,Demand spike detected,1112,2024-03-11,LOW,LOW
+2024-02-26,Uva,SKU015,Omeprazole 20mg,Gastrointestinal,71,59,4.9,20.7,CRITICAL,Demand spike detected,177,2024-03-11,LOW,LOW
+2024-02-12,Eastern,SKU011,Metformin 500mg,Diabetes,228,168,4.29,35.4,CRITICAL,Flu season spike,570,2024-02-26,LOW,MEDIUM
+2024-02-12,Sabaragamuwa,SKU015,Omeprazole 20mg,Gastrointestinal,101,77,4.44,31.2,CRITICAL,Flu season spike,252,2024-02-26,LOW,MEDIUM
+2024-02-05,North Western,SKU013,Vitamin C 500mg,Supplement,414,325,7.21,27.4,CRITICAL,Flu season spike,1035,2024-02-19,LOW,HIGH
+2024-01-29,Eastern,SKU006,ORS Sachets,Rehydration,297,244,5.76,21.7,CRITICAL,Flu season spike,742,2024-02-12,LOW,HIGH
+2024-01-29,Western,SKU004,Azithromycin 250mg,Antibiotic,808,701,8.36,15.3,CRITICAL,Flu season spike,2020,2024-02-12,LOW,HIGH
+2024-01-22,Eastern,SKU002,Ibuprofen 400mg,Antipyretic,206,165,11.77,25.1,CRITICAL,Flu season spike,515,2024-02-05,LOW,HIGH
+2024-01-22,Eastern,SKU010,Cetirizine 10mg,Antihistamine,162,114,5.46,41.7,CRITICAL,Flu season spike,405,2024-02-05,LOW,HIGH
+2024-01-22,North Central,SKU007,Paediatric Paracetamol Syrup,Paediatric,168,132,5.49,27.3,CRITICAL,Flu season spike,420,2024-02-05,LOW,HIGH
+2024-01-22,North Western,SKU009,Salbutamol Inhaler,Respiratory,167,127,5.3,31.5,CRITICAL,Flu season spike,417,2024-02-05,LOW,HIGH
+2024-01-22,Sabaragamuwa,SKU011,Metformin 500mg,Diabetes,141,115,7.98,22.3,CRITICAL,Flu season spike,352,2024-02-05,LOW,HIGH
+2024-01-22,Uva,SKU001,Paracetamol 500mg,Antipyretic,209,178,4.77,17.2,CRITICAL,Flu season spike,522,2024-02-05,LOW,HIGH
+2024-01-22,Uva,SKU007,Paediatric Paracetamol Syrup,Paediatric,109,92,10.91,18.1,CRITICAL,Flu season spike,272,2024-02-05,LOW,HIGH
+2024-12-30,Northern,SKU004,Azithromycin 250mg,Antibiotic,103,72,3.04,42.1,HIGH,Flu season spike,257,2025-01-13,LOW,MEDIUM
+2024-12-30,Southern,SKU009,Salbutamol Inhaler,Respiratory,127,84,3.29,50.6,HIGH,Flu season spike,317,2025-01-13,LOW,MEDIUM
+2024-12-16,Uva,SKU012,Amlodipine 5mg,Cardiovascular,102,82,3.6,23.9,HIGH,Dengue outbreak signal,255,2024-12-30,MEDIUM,LOW
+2024-12-02,Central,SKU015,Omeprazole 20mg,Gastrointestinal,226,186,3.23,21.5,HIGH,Dengue outbreak signal,565,2024-12-16,HIGH,LOW
+2024-12-02,North Western,SKU013,Vitamin C 500mg,Supplement,313,262,3.29,19.5,HIGH,Dengue outbreak signal,782,2024-12-16,HIGH,LOW
+2024-12-02,Northern,SKU001,Paracetamol 500mg,Antipyretic,365,272,3.23,34.3,HIGH,Dengue outbreak signal,912,2024-12-16,HIGH,LOW
+2024-12-02,Western,SKU013,Vitamin C 500mg,Supplement,1182,913,3.23,29.4,HIGH,Dengue outbreak signal,2955,2024-12-16,HIGH,LOW
+2024-11-25,Eastern,SKU001,Paracetamol 500mg,Antipyretic,435,269,3.38,61.9,HIGH,Dengue outbreak signal,1087,2024-12-09,HIGH,LOW
+2024-11-25,North Western,SKU010,Cetirizine 10mg,Antihistamine,250,218,3.86,14.9,HIGH,Dengue outbreak signal,625,2024-12-09,HIGH,LOW
+2024-11-25,Southern,SKU011,Metformin 500mg,Diabetes,318,248,3.07,28.1,HIGH,Dengue outbreak signal,795,2024-12-09,HIGH,LOW
+2024-11-25,Western,SKU006,ORS Sachets,Rehydration,2912,1716,3.64,69.7,HIGH,Dengue outbreak signal,7280,2024-12-09,HIGH,LOW
+2024-11-18,Eastern,SKU001,Paracetamol 500mg,Antipyretic,350,254,3.33,38.0,HIGH,Dengue outbreak signal,875,2024-12-02,HIGH,LOW
+2024-11-18,North Central,SKU001,Paracetamol 500mg,Antipyretic,285,216,3.05,31.9,HIGH,Dengue outbreak signal,712,2024-12-02,HIGH,LOW
+2024-11-18,North Central,SKU006,ORS Sachets,Rehydration,291,172,3.9,69.7,HIGH,Dengue outbreak signal,727,2024-12-02,HIGH,LOW
+2024-11-18,North Western,SKU007,Paediatric Paracetamol Syrup,Paediatric,428,284,3.5,50.4,HIGH,Dengue outbreak signal,1070,2024-12-02,HIGH,LOW
+2024-11-18,Northern,SKU002,Ibuprofen 400mg,Antipyretic,224,154,3.3,45.5,HIGH,Dengue outbreak signal,560,2024-12-02,HIGH,LOW
+2024-11-18,Northern,SKU006,ORS Sachets,Rehydration,367,206,3.62,78.4,HIGH,Dengue outbreak signal,917,2024-12-02,HIGH,LOW
+2024-11-18,Sabaragamuwa,SKU001,Paracetamol 500mg,Antipyretic,340,208,3.33,63.1,HIGH,Dengue outbreak signal,850,2024-12-02,HIGH,LOW
+2024-11-18,Sabaragamuwa,SKU006,ORS Sachets,Rehydration,264,174,3.01,51.3,HIGH,Dengue outbreak signal,660,2024-12-02,HIGH,LOW
+2024-11-18,Southern,SKU003,Amoxicillin 500mg,Antibiotic,227,179,3.75,26.6,HIGH,Dengue outbreak signal,567,2024-12-02,HIGH,LOW
+2024-11-18,Western,SKU014,Zinc Supplement,Supplement,723,522,3.03,38.4,HIGH,Dengue outbreak signal,1807,2024-12-02,HIGH,LOW
+2024-11-11,North Western,SKU001,Paracetamol 500mg,Antipyretic,825,509,3.57,62.0,HIGH,Dengue outbreak signal,2062,2024-11-25,HIGH,LOW
+2024-11-11,North Western,SKU005,Dengue Rapid Test Kit,Diagnostics,180,102,3.03,76.2,HIGH,Dengue outbreak signal,450,2024-11-25,HIGH,LOW
+2024-11-11,Sabaragamuwa,SKU006,ORS Sachets,Rehydration,223,162,3.23,37.2,HIGH,Dengue outbreak signal,557,2024-11-25,HIGH,LOW
+2024-11-11,Southern,SKU001,Paracetamol 500mg,Antipyretic,608,428,3.1,42.1,HIGH,Dengue outbreak signal,1520,2024-11-25,HIGH,LOW
+2024-11-11,Uva,SKU001,Paracetamol 500mg,Antipyretic,230,159,3.6,44.8,HIGH,Dengue outbreak signal,575,2024-11-25,HIGH,LOW
+2024-11-11,Uva,SKU004,Azithromycin 250mg,Antibiotic,63,47,3.41,33.1,HIGH,Dengue outbreak signal,157,2024-11-25,HIGH,LOW
+2024-11-04,Central,SKU001,Paracetamol 500mg,Antipyretic,605,448,3.5,35.0,HIGH,Dengue outbreak signal,1512,2024-11-18,MEDIUM,LOW
+2024-11-04,Eastern,SKU005,Dengue Rapid Test Kit,Diagnostics,66,43,3.87,52.3,HIGH,Dengue outbreak signal,165,2024-11-18,MEDIUM,LOW
+2024-11-04,North Western,SKU002,Ibuprofen 400mg,Antipyretic,429,329,3.14,30.4,HIGH,Dengue outbreak signal,1072,2024-11-18,MEDIUM,LOW
+2024-11-04,North Western,SKU007,Paediatric Paracetamol Syrup,Paediatric,327,258,3.29,26.7,HIGH,Dengue outbreak signal,817,2024-11-18,MEDIUM,LOW
+2024-11-04,Northern,SKU005,Dengue Rapid Test Kit,Diagnostics,63,44,3.05,43.7,HIGH,Dengue outbreak signal,157,2024-11-18,MEDIUM,LOW
+2024-11-04,Sabaragamuwa,SKU008,Children's Multivitamin,Paediatric,92,80,3.28,14.3,HIGH,Dengue outbreak signal,230,2024-11-18,MEDIUM,LOW
+2024-11-04,Southern,SKU013,Vitamin C 500mg,Supplement,299,221,3.87,35.3,HIGH,Dengue outbreak signal,747,2024-11-18,MEDIUM,LOW
+2024-11-04,Uva,SKU005,Dengue Rapid Test Kit,Diagnostics,37,31,3.59,19.4,HIGH,Dengue outbreak signal,92,2024-11-18,MEDIUM,LOW
+2024-11-04,Western,SKU005,Dengue Rapid Test Kit,Diagnostics,472,310,3.93,52.4,HIGH,Dengue outbreak signal,1180,2024-11-18,MEDIUM,LOW
+2024-11-04,Western,SKU006,ORS Sachets,Rehydration,1828,1450,3.12,26.1,HIGH,Dengue outbreak signal,4570,2024-11-18,MEDIUM,LOW
+2024-10-21,Southern,SKU013,Vitamin C 500mg,Supplement,254,214,3.27,18.9,HIGH,Demand spike detected,635,2024-11-04,LOW,LOW
+2024-10-21,Western,SKU004,Azithromycin 250mg,Antibiotic,682,483,3.29,41.2,HIGH,Demand spike detected,1705,2024-11-04,LOW,LOW
+2024-10-07,Northern,SKU003,Amoxicillin 500mg,Antibiotic,123,89,3.65,38.5,HIGH,Demand spike detected,307,2024-10-21,LOW,LOW
+2024-09-30,North Western,SKU014,Zinc Supplement,Supplement,173,142,3.13,22.3,HIGH,Demand spike detected,432,2024-10-14,LOW,LOW
+2024-09-30,Northern,SKU002,Ibuprofen 400mg,Antipyretic,171,132,3.38,30.0,HIGH,Demand spike detected,427,2024-10-14,LOW,LOW
+2024-09-23,Eastern,SKU015,Omeprazole 20mg,Gastrointestinal,130,104,3.64,25.2,HIGH,Demand spike detected,325,2024-10-07,LOW,LOW
+2024-09-23,Uva,SKU001,Paracetamol 500mg,Antipyretic,196,156,3.23,25.6,HIGH,Demand spike detected,490,2024-10-07,LOW,LOW
+2024-09-09,Western,SKU011,Metformin 500mg,Diabetes,1557,1149,3.56,35.5,HIGH,Demand spike detected,3892,2024-09-23,LOW,LOW
+2024-08-19,Central,SKU010,Cetirizine 10mg,Antihistamine,243,212,3.15,14.9,HIGH,Flu season spike,607,2024-09-02,LOW,MEDIUM
+2024-08-19,Southern,SKU011,Metformin 500mg,Diabetes,331,264,3.14,25.5,HIGH,Flu season spike,827,2024-09-02,LOW,MEDIUM
+2024-08-05,Central,SKU013,Vitamin C 500mg,Supplement,319,242,3.38,31.8,HIGH,Flu season spike,797,2024-08-19,LOW,HIGH
+2024-08-05,Northern,SKU007,Paediatric Paracetamol Syrup,Paediatric,184,141,3.22,30.8,HIGH,Flu season spike,460,2024-08-19,LOW,HIGH
+2024-08-05,Southern,SKU011,Metformin 500mg,Diabetes,293,256,3.37,14.7,HIGH,Flu season spike,732,2024-08-19,LOW,HIGH
+2024-08-05,Southern,SKU013,Vitamin C 500mg,Supplement,268,246,3.6,9.2,HIGH,Flu season spike,670,2024-08-19,LOW,HIGH
+2024-08-05,Western,SKU002,Ibuprofen 400mg,Antipyretic,1518,1079,3.57,40.7,HIGH,Flu season spike,3795,2024-08-19,LOW,HIGH
+2024-07-29,Eastern,SKU015,Omeprazole 20mg,Gastrointestinal,109,99,3.65,10.3,HIGH,Flu season spike,272,2024-08-12,LOW,HIGH
+2024-07-29,North Central,SKU002,Ibuprofen 400mg,Antipyretic,176,118,3.85,48.5,HIGH,Flu season spike,440,2024-08-12,LOW,HIGH
+2024-07-29,North Western,SKU003,Amoxicillin 500mg,Antibiotic,320,206,3.79,55.3,HIGH,Flu season spike,800,2024-08-12,LOW,HIGH
+2024-07-29,Sabaragamuwa,SKU009,Salbutamol Inhaler,Respiratory,67,52,3.66,30.1,HIGH,Flu season spike,167,2024-08-12,LOW,HIGH
+2024-07-29,Southern,SKU003,Amoxicillin 500mg,Antibiotic,254,188,3.62,34.7,HIGH,Flu season spike,635,2024-08-12,LOW,HIGH
+2024-07-22,Central,SKU002,Ibuprofen 400mg,Antipyretic,388,287,3.43,35.1,HIGH,Flu season spike,970,2024-08-05,LOW,HIGH
+2024-07-22,Eastern,SKU004,Azithromycin 250mg,Antibiotic,107,79,3.01,34.9,HIGH,Flu season spike,267,2024-08-05,LOW,HIGH
+2024-07-22,North Western,SKU009,Salbutamol Inhaler,Respiratory,161,119,3.24,34.9,HIGH,Flu season spike,402,2024-08-05,LOW,HIGH
+2024-07-22,Northern,SKU002,Ibuprofen 400mg,Antipyretic,215,163,3.43,32.2,HIGH,Flu season spike,537,2024-08-05,LOW,HIGH
+2024-07-22,Southern,SKU003,Amoxicillin 500mg,Antibiotic,218,181,3.15,20.7,HIGH,Flu season spike,545,2024-08-05,LOW,HIGH
+2024-07-15,Northern,SKU004,Azithromycin 250mg,Antibiotic,104,81,3.02,28.9,HIGH,Flu season spike,260,2024-07-29,LOW,MEDIUM
+2024-07-08,Eastern,SKU012,Amlodipine 5mg,Cardiovascular,208,149,3.52,39.4,HIGH,Flu season spike,520,2024-07-22,LOW,MEDIUM
+2024-06-10,Sabaragamuwa,SKU009,Salbutamol Inhaler,Respiratory,61,48,3.02,25.8,HIGH,Dengue outbreak signal,152,2024-06-24,HIGH,LOW
+2024-06-03,North Central,SKU014,Zinc Supplement,Supplement,90,62,3.12,44.8,HIGH,Dengue outbreak signal,225,2024-06-17,HIGH,LOW
+2024-05-27,Eastern,SKU001,Paracetamol 500mg,Antipyretic,603,295,3.88,104.5,HIGH,Dengue outbreak signal,1507,2024-06-10,HIGH,LOW
+2024-05-20,Central,SKU003,Amoxicillin 500mg,Antibiotic,257,185,3.32,38.8,HIGH,Dengue outbreak signal,642,2024-06-03,HIGH,LOW
+2024-05-20,Central,SKU013,Vitamin C 500mg,Supplement,351,258,3.68,36.0,HIGH,Dengue outbreak signal,877,2024-06-03,HIGH,LOW
+2024-05-20,Eastern,SKU001,Paracetamol 500mg,Antipyretic,428,258,3.27,66.1,HIGH,Dengue outbreak signal,1070,2024-06-03,HIGH,LOW
+2024-05-20,Eastern,SKU005,Dengue Rapid Test Kit,Diagnostics,112,59,3.28,89.8,HIGH,Dengue outbreak signal,280,2024-06-03,HIGH,LOW
+2024-05-20,North Central,SKU012,Amlodipine 5mg,Cardiovascular,158,117,3.03,35.2,HIGH,Dengue outbreak signal,395,2024-06-03,HIGH,LOW
+2024-05-20,Northern,SKU006,ORS Sachets,Rehydration,423,224,3.19,88.4,HIGH,Dengue outbreak signal,1057,2024-06-03,HIGH,LOW
+2024-05-20,Sabaragamuwa,SKU007,Paediatric Paracetamol Syrup,Paediatric,183,112,3.24,63.4,HIGH,Dengue outbreak signal,457,2024-06-03,HIGH,LOW
+2024-05-20,Southern,SKU002,Ibuprofen 400mg,Antipyretic,404,256,3.67,58.0,HIGH,Dengue outbreak signal,1010,2024-06-03,HIGH,LOW
+2024-05-20,Southern,SKU010,Cetirizine 10mg,Antihistamine,242,192,3.39,26.0,HIGH,Dengue outbreak signal,605,2024-06-03,HIGH,LOW
+2024-05-20,Southern,SKU013,Vitamin C 500mg,Supplement,267,216,3.47,23.5,HIGH,Dengue outbreak signal,667,2024-06-03,HIGH,LOW
+2024-05-20,Uva,SKU004,Azithromycin 250mg,Antibiotic,60,45,3.59,34.3,HIGH,Dengue outbreak signal,150,2024-06-03,HIGH,LOW
+2024-05-20,Western,SKU003,Amoxicillin 500mg,Antibiotic,1045,737,3.61,41.8,HIGH,Dengue outbreak signal,2612,2024-06-03,HIGH,LOW
+2024-05-20,Western,SKU006,ORS Sachets,Rehydration,2655,1514,3.19,75.3,HIGH,Dengue outbreak signal,6637,2024-06-03,HIGH,LOW
+2024-05-13,Central,SKU001,Paracetamol 500mg,Antipyretic,689,490,3.01,40.7,HIGH,Dengue outbreak signal,1722,2024-05-27,HIGH,LOW
+2024-05-13,Central,SKU003,Amoxicillin 500mg,Antibiotic,221,178,3.41,24.4,HIGH,Dengue outbreak signal,552,2024-05-27,HIGH,LOW
+2024-05-13,Central,SKU004,Azithromycin 250mg,Antibiotic,180,140,3.07,28.9,HIGH,Dengue outbreak signal,450,2024-05-27,HIGH,LOW
+2024-05-13,Eastern,SKU002,Ibuprofen 400mg,Antipyretic,233,146,3.91,60.1,HIGH,Dengue outbreak signal,582,2024-05-27,HIGH,LOW
+2024-05-13,Eastern,SKU010,Cetirizine 10mg,Antihistamine,160,117,3.85,36.4,HIGH,Dengue outbreak signal,400,2024-05-27,HIGH,LOW
+2024-05-13,North Central,SKU005,Dengue Rapid Test Kit,Diagnostics,81,45,3.23,81.3,HIGH,Dengue outbreak signal,202,2024-05-27,HIGH,LOW
+2024-05-13,North Central,SKU010,Cetirizine 10mg,Antihistamine,112,90,3.3,24.0,HIGH,Dengue outbreak signal,280,2024-05-27,HIGH,LOW
+2024-05-13,Northern,SKU005,Dengue Rapid Test Kit,Diagnostics,98,48,3.29,103.5,HIGH,Dengue outbreak signal,245,2024-05-27,HIGH,LOW
+2024-05-13,Southern,SKU007,Paediatric Paracetamol Syrup,Paediatric,313,197,3.54,58.7,HIGH,Dengue outbreak signal,782,2024-05-27,HIGH,LOW
+2024-05-13,Western,SKU006,ORS Sachets,Rehydration,2130,1426,3.34,49.3,HIGH,Dengue outbreak signal,5325,2024-05-27,HIGH,LOW
+2024-05-06,Eastern,SKU001,Paracetamol 500mg,Antipyretic,317,234,3.56,35.2,HIGH,Dengue outbreak signal,792,2024-05-20,MEDIUM,LOW
+2024-05-06,Eastern,SKU004,Azithromycin 250mg,Antibiotic,97,72,3.01,35.7,HIGH,Dengue outbreak signal,242,2024-05-20,MEDIUM,LOW
+2024-05-06,Eastern,SKU006,ORS Sachets,Rehydration,297,214,3.26,38.8,HIGH,Dengue outbreak signal,742,2024-05-20,MEDIUM,LOW
+2024-05-06,North Central,SKU003,Amoxicillin 500mg,Antibiotic,96,70,3.77,38.1,HIGH,Dengue outbreak signal,240,2024-05-20,MEDIUM,LOW
+2024-05-06,North Western,SKU006,ORS Sachets,Rehydration,564,433,4.0,30.3,HIGH,Dengue outbreak signal,1410,2024-05-20,MEDIUM,LOW
+2024-05-06,Northern,SKU007,Paediatric Paracetamol Syrup,Paediatric,191,125,3.92,52.4,HIGH,Dengue outbreak signal,477,2024-05-20,MEDIUM,LOW
+2024-05-06,Sabaragamuwa,SKU005,Dengue Rapid Test Kit,Diagnostics,53,36,3.95,46.5,HIGH,Dengue outbreak signal,132,2024-05-20,MEDIUM,LOW
+2024-05-06,Southern,SKU002,Ibuprofen 400mg,Antipyretic,307,237,3.08,29.5,HIGH,Dengue outbreak signal,767,2024-05-20,MEDIUM,LOW
+2024-05-06,Uva,SKU005,Dengue Rapid Test Kit,Diagnostics,45,32,3.23,42.1,HIGH,Dengue outbreak signal,112,2024-05-20,MEDIUM,LOW
+2024-04-29,Eastern,SKU011,Metformin 500mg,Diabetes,207,176,3.07,17.3,HIGH,Demand spike detected,517,2024-05-13,LOW,LOW
+2024-04-15,Sabaragamuwa,SKU014,Zinc Supplement,Supplement,71,54,3.63,30.7,HIGH,Demand spike detected,177,2024-04-29,LOW,LOW
+2024-04-15,Western,SKU002,Ibuprofen 400mg,Antipyretic,1221,894,3.61,36.6,HIGH,Demand spike detected,3052,2024-04-29,LOW,LOW
+2024-04-01,Northern,SKU001,Paracetamol 500mg,Antipyretic,309,251,3.28,23.0,HIGH,Demand spike detected,772,2024-04-15,LOW,LOW
+2024-04-01,Southern,SKU014,Zinc Supplement,Supplement,137,114,3.75,20.2,HIGH,Demand spike detected,342,2024-04-15,LOW,LOW
+2024-03-18,Western,SKU007,Paediatric Paracetamol Syrup,Paediatric,1189,949,3.66,25.3,HIGH,Demand spike detected,2972,2024-04-01,LOW,LOW
+2024-02-12,Northern,SKU015,Omeprazole 20mg,Gastrointestinal,123,107,3.29,14.6,HIGH,Flu season spike,307,2024-02-26,LOW,MEDIUM
+2024-02-05,North Western,SKU006,ORS Sachets,Rehydration,606,451,3.42,34.4,HIGH,Flu season spike,1515,2024-02-19,LOW,HIGH
+2024-01-29,Southern,SKU010,Cetirizine 10mg,Antihistamine,239,198,3.13,20.9,HIGH,Flu season spike,597,2024-02-12,LOW,HIGH
+2024-01-29,Southern,SKU014,Zinc Supplement,Supplement,169,129,3.71,30.8,HIGH,Flu season spike,422,2024-02-12,LOW,HIGH
+2024-01-29,Uva,SKU010,Cetirizine 10mg,Antihistamine,105,78,3.22,33.8,HIGH,Flu season spike,262,2024-02-12,LOW,HIGH
+2024-01-22,Central,SKU001,Paracetamol 500mg,Antipyretic,754,508,3.72,48.5,HIGH,Flu season spike,1885,2024-02-05,LOW,HIGH
+2024-01-22,Eastern,SKU014,Zinc Supplement,Supplement,116,87,3.62,33.3,HIGH,Flu season spike,290,2024-02-05,LOW,HIGH
+2024-01-22,North Western,SKU015,Omeprazole 20mg,Gastrointestinal,247,199,3.23,23.9,HIGH,Flu season spike,617,2024-02-05,LOW,HIGH
+2024-01-22,Western,SKU010,Cetirizine 10mg,Antihistamine,914,844,3.95,8.3,HIGH,Flu season spike,2285,2024-02-05,LOW,HIGH
+2024-12-30,North Western,SKU002,Ibuprofen 400mg,Antipyretic,440,334,2.62,31.8,MEDIUM,Flu season spike,1100,2025-01-13,LOW,MEDIUM
+2024-12-30,Northern,SKU011,Metformin 500mg,Diabetes,194,172,2.63,13.0,MEDIUM,Flu season spike,485,2025-01-13,LOW,MEDIUM
+2024-12-30,Northern,SKU013,Vitamin C 500mg,Supplement,185,161,2.36,15.0,MEDIUM,Flu season spike,462,2025-01-13,LOW,MEDIUM
+2024-12-30,Sabaragamuwa,SKU009,Salbutamol Inhaler,Respiratory,61,44,2.8,37.6,MEDIUM,Flu season spike,152,2025-01-13,LOW,MEDIUM
+2024-12-16,Eastern,SKU012,Amlodipine 5mg,Cardiovascular,183,150,2.2,22.3,MEDIUM,Dengue outbreak signal,457,2024-12-30,MEDIUM,LOW
+2024-12-16,North Central,SKU009,Salbutamol Inhaler,Respiratory,64,50,2.96,28.4,MEDIUM,Dengue outbreak signal,160,2024-12-30,MEDIUM,LOW
+2024-12-16,Western,SKU004,Azithromycin 250mg,Antibiotic,557,479,2.06,16.3,MEDIUM,Dengue outbreak signal,1392,2024-12-30,MEDIUM,LOW
+2024-12-16,Western,SKU009,Salbutamol Inhaler,Respiratory,501,396,2.61,26.6,MEDIUM,Dengue outbreak signal,1252,2024-12-30,MEDIUM,LOW
+2024-12-09,Central,SKU012,Amlodipine 5mg,Cardiovascular,328,277,2.21,18.3,MEDIUM,Dengue outbreak signal,820,2024-12-23,HIGH,LOW
+2024-12-09,North Central,SKU008,Children's Multivitamin,Paediatric,95,75,2.17,26.4,MEDIUM,Dengue outbreak signal,237,2024-12-23,HIGH,LOW
+2024-12-09,North Western,SKU011,Metformin 500mg,Diabetes,393,349,2.04,12.5,MEDIUM,Dengue outbreak signal,982,2024-12-23,HIGH,LOW
+2024-12-09,Northern,SKU003,Amoxicillin 500mg,Antibiotic,127,106,2.77,19.6,MEDIUM,Dengue outbreak signal,317,2024-12-23,HIGH,LOW
+2024-12-09,Sabaragamuwa,SKU004,Azithromycin 250mg,Antibiotic,92,73,2.96,26.6,MEDIUM,Dengue outbreak signal,230,2024-12-23,HIGH,LOW
+2024-12-09,Southern,SKU011,Metformin 500mg,Diabetes,336,264,2.58,27.4,MEDIUM,Dengue outbreak signal,840,2024-12-23,HIGH,LOW
+2024-12-09,Western,SKU003,Amoxicillin 500mg,Antibiotic,999,752,2.51,32.9,MEDIUM,Dengue outbreak signal,2497,2024-12-23,HIGH,LOW
+2024-12-02,Central,SKU010,Cetirizine 10mg,Antihistamine,270,235,2.39,14.9,MEDIUM,Dengue outbreak signal,675,2024-12-16,HIGH,LOW
+2024-12-02,Central,SKU012,Amlodipine 5mg,Cardiovascular,311,268,2.53,16.0,MEDIUM,Dengue outbreak signal,777,2024-12-16,HIGH,LOW
+2024-12-02,North Central,SKU003,Amoxicillin 500mg,Antibiotic,124,94,2.56,31.4,MEDIUM,Dengue outbreak signal,310,2024-12-16,HIGH,LOW
+2024-12-02,North Western,SKU010,Cetirizine 10mg,Antihistamine,261,223,2.43,17.0,MEDIUM,Dengue outbreak signal,652,2024-12-16,HIGH,LOW
+2024-12-02,North Western,SKU014,Zinc Supplement,Supplement,183,142,2.31,28.9,MEDIUM,Dengue outbreak signal,457,2024-12-16,HIGH,LOW
+2024-12-02,Northern,SKU003,Amoxicillin 500mg,Antibiotic,118,103,2.9,14.6,MEDIUM,Dengue outbreak signal,295,2024-12-16,HIGH,LOW
+2024-12-02,Southern,SKU007,Paediatric Paracetamol Syrup,Paediatric,351,254,2.16,38.2,MEDIUM,Dengue outbreak signal,877,2024-12-16,HIGH,LOW
+2024-12-02,Uva,SKU015,Omeprazole 20mg,Gastrointestinal,78,56,2.24,38.1,MEDIUM,Dengue outbreak signal,195,2024-12-16,HIGH,LOW
+2024-11-25,Central,SKU005,Dengue Rapid Test Kit,Diagnostics,207,121,2.3,71.3,MEDIUM,Dengue outbreak signal,517,2024-12-09,HIGH,LOW
+2024-11-25,Central,SKU006,ORS Sachets,Rehydration,734,430,2.25,70.7,MEDIUM,Dengue outbreak signal,1835,2024-12-09,HIGH,LOW
+2024-11-25,Central,SKU013,Vitamin C 500mg,Supplement,335,261,2.08,28.2,MEDIUM,Dengue outbreak signal,837,2024-12-09,HIGH,LOW
+2024-11-25,Eastern,SKU003,Amoxicillin 500mg,Antibiotic,130,108,2.06,19.8,MEDIUM,Dengue outbreak signal,325,2024-12-09,HIGH,LOW
+2024-11-25,Eastern,SKU013,Vitamin C 500mg,Supplement,193,154,2.69,25.1,MEDIUM,Dengue outbreak signal,482,2024-12-09,HIGH,LOW
+2024-11-25,North Central,SKU005,Dengue Rapid Test Kit,Diagnostics,84,50,2.8,68.0,MEDIUM,Dengue outbreak signal,210,2024-12-09,HIGH,LOW
+2024-11-25,North Western,SKU003,Amoxicillin 500mg,Antibiotic,285,230,2.94,24.2,MEDIUM,Dengue outbreak signal,712,2024-12-09,HIGH,LOW
+2024-11-25,Southern,SKU006,ORS Sachets,Rehydration,661,392,2.24,68.6,MEDIUM,Dengue outbreak signal,1652,2024-12-09,HIGH,LOW
+2024-11-25,Western,SKU012,Amlodipine 5mg,Cardiovascular,1226,986,2.06,24.4,MEDIUM,Dengue outbreak signal,3065,2024-12-09,HIGH,LOW
+2024-11-18,Central,SKU004,Azithromycin 250mg,Antibiotic,172,140,2.19,23.2,MEDIUM,Dengue outbreak signal,430,2024-12-02,HIGH,LOW
+2024-11-18,Central,SKU006,ORS Sachets,Rehydration,607,391,2.07,55.3,MEDIUM,Dengue outbreak signal,1517,2024-12-02,HIGH,LOW
+2024-11-18,Eastern,SKU002,Ibuprofen 400mg,Antipyretic,217,166,2.08,30.5,MEDIUM,Dengue outbreak signal,542,2024-12-02,HIGH,LOW
+2024-11-18,Eastern,SKU006,ORS Sachets,Rehydration,329,226,2.42,45.6,MEDIUM,Dengue outbreak signal,822,2024-12-02,HIGH,LOW
+2024-11-18,Eastern,SKU014,Zinc Supplement,Supplement,101,76,2.28,33.5,MEDIUM,Dengue outbreak signal,252,2024-12-02,HIGH,LOW
+2024-11-18,North Central,SKU003,Amoxicillin 500mg,Antibiotic,110,89,2.25,23.8,MEDIUM,Dengue outbreak signal,275,2024-12-02,HIGH,LOW
+2024-11-18,North Central,SKU008,Children's Multivitamin,Paediatric,90,77,2.1,17.4,MEDIUM,Dengue outbreak signal,225,2024-12-02,HIGH,LOW
+2024-11-18,North Central,SKU015,Omeprazole 20mg,Gastrointestinal,97,82,2.06,18.3,MEDIUM,Dengue outbreak signal,242,2024-12-02,HIGH,LOW
+2024-11-18,North Western,SKU014,Zinc Supplement,Supplement,171,138,2.45,23.8,MEDIUM,Dengue outbreak signal,427,2024-12-02,HIGH,LOW
+2024-11-18,Northern,SKU014,Zinc Supplement,Supplement,97,74,2.22,31.4,MEDIUM,Dengue outbreak signal,242,2024-12-02,HIGH,LOW
+2024-11-18,Sabaragamuwa,SKU003,Amoxicillin 500mg,Antibiotic,94,88,2.16,7.0,MEDIUM,Dengue outbreak signal,235,2024-12-02,HIGH,LOW
+2024-11-18,Sabaragamuwa,SKU005,Dengue Rapid Test Kit,Diagnostics,75,45,2.5,65.4,MEDIUM,Dengue outbreak signal,187,2024-12-02,HIGH,LOW
+2024-11-18,Sabaragamuwa,SKU007,Paediatric Paracetamol Syrup,Paediatric,161,120,2.07,34.7,MEDIUM,Dengue outbreak signal,402,2024-12-02,HIGH,LOW
+2024-11-18,Southern,SKU004,Azithromycin 250mg,Antibiotic,153,117,2.16,30.6,MEDIUM,Dengue outbreak signal,382,2024-12-02,HIGH,LOW
+2024-11-18,Southern,SKU005,Dengue Rapid Test Kit,Diagnostics,139,90,2.21,55.3,MEDIUM,Dengue outbreak signal,347,2024-12-02,HIGH,LOW
+2024-11-18,Southern,SKU007,Paediatric Paracetamol Syrup,Paediatric,310,232,2.01,33.5,MEDIUM,Dengue outbreak signal,775,2024-12-02,HIGH,LOW
+2024-11-18,Southern,SKU010,Cetirizine 10mg,Antihistamine,235,191,2.03,22.9,MEDIUM,Dengue outbreak signal,587,2024-12-02,HIGH,LOW
+2024-11-18,Southern,SKU013,Vitamin C 500mg,Supplement,338,238,2.83,42.3,MEDIUM,Dengue outbreak signal,845,2024-12-02,HIGH,LOW
+2024-11-18,Uva,SKU001,Paracetamol 500mg,Antipyretic,240,175,2.09,37.3,MEDIUM,Dengue outbreak signal,600,2024-12-02,HIGH,LOW
+2024-11-18,Uva,SKU005,Dengue Rapid Test Kit,Diagnostics,56,35,2.65,60.8,MEDIUM,Dengue outbreak signal,140,2024-12-02,HIGH,LOW
+2024-11-18,Uva,SKU006,ORS Sachets,Rehydration,225,130,2.85,72.6,MEDIUM,Dengue outbreak signal,562,2024-12-02,HIGH,LOW
+2024-11-18,Western,SKU001,Paracetamol 500mg,Antipyretic,2662,1880,2.52,41.6,MEDIUM,Dengue outbreak signal,6655,2024-12-02,HIGH,LOW
+2024-11-18,Western,SKU002,Ibuprofen 400mg,Antipyretic,1316,973,2.04,35.3,MEDIUM,Dengue outbreak signal,3290,2024-12-02,HIGH,LOW
+2024-11-18,Western,SKU010,Cetirizine 10mg,Antihistamine,1007,704,2.59,43.0,MEDIUM,Dengue outbreak signal,2517,2024-12-02,HIGH,LOW
+2024-11-18,Western,SKU013,Vitamin C 500mg,Supplement,1049,904,2.06,16.0,MEDIUM,Dengue outbreak signal,2622,2024-12-02,HIGH,LOW
+2024-11-11,Central,SKU001,Paracetamol 500mg,Antipyretic,670,470,2.54,42.7,MEDIUM,Dengue outbreak signal,1675,2024-11-25,HIGH,LOW
+2024-11-11,Central,SKU002,Ibuprofen 400mg,Antipyretic,343,295,2.59,16.3,MEDIUM,Dengue outbreak signal,857,2024-11-25,HIGH,LOW
+2024-11-11,Eastern,SKU001,Paracetamol 500mg,Antipyretic,294,248,2.1,18.5,MEDIUM,Dengue outbreak signal,735,2024-11-25,HIGH,LOW
+2024-11-11,Eastern,SKU004,Azithromycin 250mg,Antibiotic,85,76,2.17,11.8,MEDIUM,Dengue outbreak signal,212,2024-11-25,HIGH,LOW
+2024-11-11,Eastern,SKU010,Cetirizine 10mg,Antihistamine,137,114,2.4,19.7,MEDIUM,Dengue outbreak signal,342,2024-11-25,HIGH,LOW
+2024-11-11,North Central,SKU001,Paracetamol 500mg,Antipyretic,253,212,2.48,19.2,MEDIUM,Dengue outbreak signal,632,2024-11-25,HIGH,LOW
+2024-11-11,North Central,SKU002,Ibuprofen 400mg,Antipyretic,171,121,2.91,41.1,MEDIUM,Dengue outbreak signal,427,2024-11-25,HIGH,LOW
+2024-11-11,North Central,SKU006,ORS Sachets,Rehydration,213,163,2.18,30.5,MEDIUM,Dengue outbreak signal,532,2024-11-25,HIGH,LOW
+2024-11-11,North Central,SKU014,Zinc Supplement,Supplement,83,60,2.89,38.3,MEDIUM,Dengue outbreak signal,207,2024-11-25,HIGH,LOW
+2024-11-11,Northern,SKU001,Paracetamol 500mg,Antipyretic,324,261,2.36,24.0,MEDIUM,Dengue outbreak signal,810,2024-11-25,HIGH,LOW
+2024-11-11,Northern,SKU007,Paediatric Paracetamol Syrup,Paediatric,191,131,2.32,45.4,MEDIUM,Dengue outbreak signal,477,2024-11-25,HIGH,LOW
+2024-11-11,Sabaragamuwa,SKU001,Paracetamol 500mg,Antipyretic,269,199,2.63,35.4,MEDIUM,Dengue outbreak signal,672,2024-11-25,HIGH,LOW
+2024-11-11,Sabaragamuwa,SKU005,Dengue Rapid Test Kit,Diagnostics,64,40,2.69,62.0,MEDIUM,Dengue outbreak signal,160,2024-11-25,HIGH,LOW
+2024-11-11,Southern,SKU005,Dengue Rapid Test Kit,Diagnostics,121,83,2.34,46.1,MEDIUM,Dengue outbreak signal,302,2024-11-25,HIGH,LOW
+2024-11-11,Southern,SKU014,Zinc Supplement,Supplement,147,116,2.41,26.5,MEDIUM,Dengue outbreak signal,367,2024-11-25,HIGH,LOW
+2024-11-11,Uva,SKU010,Cetirizine 10mg,Antihistamine,89,70,2.42,27.4,MEDIUM,Dengue outbreak signal,222,2024-11-25,HIGH,LOW
+2024-11-04,Eastern,SKU014,Zinc Supplement,Supplement,93,74,2.15,24.8,MEDIUM,Dengue outbreak signal,232,2024-11-18,MEDIUM,LOW
+2024-11-04,North Central,SKU013,Vitamin C 500mg,Supplement,155,106,2.79,46.0,MEDIUM,Dengue outbreak signal,387,2024-11-18,MEDIUM,LOW
+2024-11-04,North Western,SKU008,Children's Multivitamin,Paediatric,261,192,2.41,35.8,MEDIUM,Dengue outbreak signal,652,2024-11-18,MEDIUM,LOW
+2024-11-04,Sabaragamuwa,SKU004,Azithromycin 250mg,Antibiotic,84,62,2.39,36.6,MEDIUM,Dengue outbreak signal,210,2024-11-18,MEDIUM,LOW
+2024-11-04,Southern,SKU014,Zinc Supplement,Supplement,136,111,2.86,22.2,MEDIUM,Dengue outbreak signal,340,2024-11-18,MEDIUM,LOW
+2024-11-04,Southern,SKU015,Omeprazole 20mg,Gastrointestinal,195,160,2.71,21.7,MEDIUM,Dengue outbreak signal,487,2024-11-18,MEDIUM,LOW
+2024-11-04,Uva,SKU002,Ibuprofen 400mg,Antipyretic,104,86,2.29,21.4,MEDIUM,Dengue outbreak signal,260,2024-11-18,MEDIUM,LOW
+2024-11-04,Uva,SKU014,Zinc Supplement,Supplement,65,47,2.32,38.8,MEDIUM,Dengue outbreak signal,162,2024-11-18,MEDIUM,LOW
+2024-11-04,Western,SKU014,Zinc Supplement,Supplement,590,482,2.46,22.5,MEDIUM,Dengue outbreak signal,1475,2024-11-18,MEDIUM,LOW
+2024-10-28,Northern,SKU012,Amlodipine 5mg,Cardiovascular,165,132,2.17,25.3,MEDIUM,Demand spike detected,412,2024-11-11,LOW,LOW
+2024-10-28,Sabaragamuwa,SKU012,Amlodipine 5mg,Cardiovascular,138,118,2.47,17.4,MEDIUM,Demand spike detected,345,2024-11-11,LOW,LOW
+2024-10-28,Sabaragamuwa,SKU015,Omeprazole 20mg,Gastrointestinal,103,88,2.35,17.7,MEDIUM,Demand spike detected,257,2024-11-11,LOW,LOW
+2024-10-28,Southern,SKU003,Amoxicillin 500mg,Antibiotic,196,170,2.73,15.0,MEDIUM,Demand spike detected,490,2024-11-11,LOW,LOW
+2024-10-28,Southern,SKU012,Amlodipine 5mg,Cardiovascular,319,229,2.53,39.4,MEDIUM,Demand spike detected,797,2024-11-11,LOW,LOW
+2024-10-28,Uva,SKU011,Metformin 500mg,Diabetes,121,101,2.27,20.2,MEDIUM,Demand spike detected,302,2024-11-11,LOW,LOW
+2024-10-21,Central,SKU010,Cetirizine 10mg,Antihistamine,245,210,2.09,16.6,MEDIUM,Demand spike detected,612,2024-11-04,LOW,LOW
+2024-10-21,North Central,SKU013,Vitamin C 500mg,Supplement,126,108,2.24,16.1,MEDIUM,Demand spike detected,315,2024-11-04,LOW,LOW
+2024-10-21,Southern,SKU010,Cetirizine 10mg,Antihistamine,219,174,2.68,25.6,MEDIUM,Demand spike detected,547,2024-11-04,LOW,LOW
+2024-10-21,Uva,SKU011,Metformin 500mg,Diabetes,113,96,2.11,17.1,MEDIUM,Demand spike detected,282,2024-11-04,LOW,LOW
+2024-10-21,Uva,SKU013,Vitamin C 500mg,Supplement,108,84,2.88,28.3,MEDIUM,Demand spike detected,270,2024-11-04,LOW,LOW
+2024-10-14,Central,SKU014,Zinc Supplement,Supplement,151,127,2.31,18.9,MEDIUM,Demand spike detected,377,2024-10-28,LOW,LOW
+2024-10-14,North Central,SKU012,Amlodipine 5mg,Cardiovascular,150,125,2.15,19.8,MEDIUM,Demand spike detected,375,2024-10-28,LOW,LOW
+2024-10-14,North Western,SKU002,Ibuprofen 400mg,Antipyretic,368,308,2.74,19.6,MEDIUM,Demand spike detected,920,2024-10-28,LOW,LOW
+2024-10-14,North Western,SKU015,Omeprazole 20mg,Gastrointestinal,240,196,2.4,22.1,MEDIUM,Demand spike detected,600,2024-10-28,LOW,LOW
+2024-10-14,Southern,SKU001,Paracetamol 500mg,Antipyretic,446,386,2.29,15.4,MEDIUM,Demand spike detected,1115,2024-10-28,LOW,LOW
+2024-10-14,Southern,SKU002,Ibuprofen 400mg,Antipyretic,275,210,2.75,30.6,MEDIUM,Demand spike detected,687,2024-10-28,LOW,LOW
+2024-10-14,Western,SKU001,Paracetamol 500mg,Antipyretic,2207,1504,2.42,46.8,MEDIUM,Demand spike detected,5517,2024-10-28,LOW,LOW
+2024-10-14,Western,SKU015,Omeprazole 20mg,Gastrointestinal,764,659,2.15,16.0,MEDIUM,Demand spike detected,1910,2024-10-28,LOW,LOW
+2024-10-07,North Central,SKU004,Azithromycin 250mg,Antibiotic,78,58,2.65,34.1,MEDIUM,Demand spike detected,195,2024-10-21,LOW,LOW
+2024-10-07,North Central,SKU010,Cetirizine 10mg,Antihistamine,108,90,2.38,20.4,MEDIUM,Demand spike detected,270,2024-10-21,LOW,LOW
+2024-10-07,North Western,SKU001,Paracetamol 500mg,Antipyretic,615,493,2.31,24.7,MEDIUM,Demand spike detected,1537,2024-10-21,LOW,LOW
+2024-10-07,North Western,SKU005,Dengue Rapid Test Kit,Diagnostics,111,94,2.35,17.5,MEDIUM,Demand spike detected,277,2024-10-21,LOW,LOW
+2024-10-07,Northern,SKU008,Children's Multivitamin,Paediatric,118,92,2.12,27.6,MEDIUM,Demand spike detected,295,2024-10-21,LOW,LOW
+2024-10-07,Sabaragamuwa,SKU003,Amoxicillin 500mg,Antibiotic,92,78,2.05,18.7,MEDIUM,Demand spike detected,230,2024-10-21,LOW,LOW
+2024-10-07,Sabaragamuwa,SKU013,Vitamin C 500mg,Supplement,136,118,2.76,15.6,MEDIUM,Demand spike detected,340,2024-10-21,LOW,LOW
+2024-09-30,Central,SKU011,Metformin 500mg,Diabetes,374,308,2.31,21.2,MEDIUM,Demand spike detected,935,2024-10-14,LOW,LOW
+2024-09-30,North Central,SKU015,Omeprazole 20mg,Gastrointestinal,96,78,2.41,22.3,MEDIUM,Demand spike detected,240,2024-10-14,LOW,LOW
+2024-09-30,North Western,SKU006,ORS Sachets,Rehydration,486,395,2.07,23.1,MEDIUM,Demand spike detected,1215,2024-10-14,LOW,LOW
+2024-09-30,Uva,SKU007,Paediatric Paracetamol Syrup,Paediatric,110,74,2.25,47.7,MEDIUM,Demand spike detected,275,2024-10-14,LOW,LOW
+2024-09-30,Uva,SKU014,Zinc Supplement,Supplement,56,45,2.3,23.5,MEDIUM,Demand spike detected,140,2024-10-14,LOW,LOW
+2024-09-23,Central,SKU013,Vitamin C 500mg,Supplement,355,240,2.29,48.0,MEDIUM,Demand spike detected,887,2024-10-07,LOW,LOW
+2024-09-23,North Central,SKU011,Metformin 500mg,Diabetes,170,141,2.53,20.4,MEDIUM,Demand spike detected,425,2024-10-07,LOW,LOW
+2024-09-16,North Central,SKU012,Amlodipine 5mg,Cardiovascular,132,112,2.36,18.0,MEDIUM,Demand spike detected,330,2024-09-30,LOW,LOW
+2024-09-16,North Western,SKU008,Children's Multivitamin,Paediatric,226,176,2.57,28.7,MEDIUM,Demand spike detected,565,2024-09-30,LOW,LOW
+2024-09-16,Southern,SKU011,Metformin 500mg,Diabetes,355,280,2.13,26.6,MEDIUM,Demand spike detected,887,2024-09-30,LOW,LOW
+2024-09-16,Southern,SKU012,Amlodipine 5mg,Cardiovascular,298,224,2.28,32.8,MEDIUM,Demand spike detected,745,2024-09-30,LOW,LOW
+2024-09-09,Central,SKU015,Omeprazole 20mg,Gastrointestinal,196,178,2.0,9.8,MEDIUM,Demand spike detected,490,2024-09-23,LOW,LOW
+2024-09-09,Uva,SKU006,ORS Sachets,Rehydration,147,118,2.06,24.2,MEDIUM,Demand spike detected,367,2024-09-23,LOW,LOW
+2024-09-02,Central,SKU005,Dengue Rapid Test Kit,Diagnostics,107,91,2.01,17.4,MEDIUM,Demand spike detected,267,2024-09-16,LOW,LOW
+2024-09-02,Central,SKU011,Metformin 500mg,Diabetes,356,307,2.36,16.0,MEDIUM,Demand spike detected,890,2024-09-16,LOW,LOW
+2024-09-02,Sabaragamuwa,SKU011,Metformin 500mg,Diabetes,180,147,2.59,22.2,MEDIUM,Demand spike detected,450,2024-09-16,LOW,LOW
+2024-09-02,Uva,SKU015,Omeprazole 20mg,Gastrointestinal,67,58,2.03,15.2,MEDIUM,Demand spike detected,167,2024-09-16,LOW,LOW
+2024-08-26,Northern,SKU011,Metformin 500mg,Diabetes,201,158,2.33,27.1,MEDIUM,Demand spike detected,502,2024-09-09,LOW,LOW
+2024-08-19,Eastern,SKU009,Salbutamol Inhaler,Respiratory,80,61,2.69,31.9,MEDIUM,Flu season spike,200,2024-09-02,LOW,MEDIUM
+2024-08-19,Southern,SKU013,Vitamin C 500mg,Supplement,272,254,2.32,7.2,MEDIUM,Flu season spike,680,2024-09-02,LOW,MEDIUM
+2024-08-12,Central,SKU008,Children's Multivitamin,Paediatric,226,160,2.51,41.7,MEDIUM,Flu season spike,565,2024-08-26,LOW,MEDIUM
+2024-08-12,Central,SKU009,Salbutamol Inhaler,Respiratory,135,113,2.05,19.1,MEDIUM,Flu season spike,337,2024-08-26,LOW,MEDIUM
+2024-08-12,Eastern,SKU015,Omeprazole 20mg,Gastrointestinal,114,100,2.5,14.2,MEDIUM,Flu season spike,285,2024-08-26,LOW,MEDIUM
+2024-08-12,Northern,SKU001,Paracetamol 500mg,Antipyretic,366,278,2.74,31.4,MEDIUM,Flu season spike,915,2024-08-26,LOW,MEDIUM
+2024-08-12,Sabaragamuwa,SKU015,Omeprazole 20mg,Gastrointestinal,96,78,2.53,22.6,MEDIUM,Flu season spike,240,2024-08-26,LOW,MEDIUM
+2024-08-12,Southern,SKU010,Cetirizine 10mg,Antihistamine,214,185,2.08,15.9,MEDIUM,Flu season spike,535,2024-08-26,LOW,MEDIUM
+2024-08-05,North Central,SKU006,ORS Sachets,Rehydration,235,166,2.44,41.4,MEDIUM,Flu season spike,587,2024-08-19,LOW,HIGH
+2024-08-05,North Central,SKU009,Salbutamol Inhaler,Respiratory,61,48,2.18,28.0,MEDIUM,Flu season spike,152,2024-08-19,LOW,HIGH
+2024-08-05,North Central,SKU014,Zinc Supplement,Supplement,78,65,2.17,20.6,MEDIUM,Flu season spike,195,2024-08-19,LOW,HIGH
+2024-08-05,North Western,SKU001,Paracetamol 500mg,Antipyretic,697,529,2.36,31.7,MEDIUM,Flu season spike,1742,2024-08-19,LOW,HIGH
+2024-08-05,Northern,SKU014,Zinc Supplement,Supplement,86,74,2.56,16.0,MEDIUM,Flu season spike,215,2024-08-19,LOW,HIGH
+2024-08-05,Western,SKU008,Children's Multivitamin,Paediatric,766,667,2.26,14.8,MEDIUM,Flu season spike,1915,2024-08-19,LOW,HIGH
+2024-07-29,Eastern,SKU001,Paracetamol 500mg,Antipyretic,365,295,2.41,23.8,MEDIUM,Flu season spike,912,2024-08-12,LOW,HIGH
+2024-07-29,North Central,SKU004,Azithromycin 250mg,Antibiotic,84,66,2.97,27.6,MEDIUM,Flu season spike,210,2024-08-12,LOW,HIGH
+2024-07-29,Northern,SKU013,Vitamin C 500mg,Supplement,182,149,2.38,22.4,MEDIUM,Flu season spike,455,2024-08-12,LOW,HIGH
+2024-07-29,Southern,SKU015,Omeprazole 20mg,Gastrointestinal,191,148,2.64,29.3,MEDIUM,Flu season spike,477,2024-08-12,LOW,HIGH
+2024-07-29,Western,SKU007,Paediatric Paracetamol Syrup,Paediatric,1260,1029,2.17,22.4,MEDIUM,Flu season spike,3150,2024-08-12,LOW,HIGH
+2024-07-22,Central,SKU004,Azithromycin 250mg,Antibiotic,197,147,2.32,33.7,MEDIUM,Flu season spike,492,2024-08-05,LOW,HIGH
+2024-07-22,Central,SKU007,Paediatric Paracetamol Syrup,Paediatric,337,275,2.09,22.6,MEDIUM,Flu season spike,842,2024-08-05,LOW,HIGH
+2024-07-22,North Central,SKU004,Azithromycin 250mg,Antibiotic,75,64,2.52,16.6,MEDIUM,Flu season spike,187,2024-08-05,LOW,HIGH
+2024-07-22,North Western,SKU004,Azithromycin 250mg,Antibiotic,215,163,2.66,32.2,MEDIUM,Flu season spike,537,2024-08-05,LOW,HIGH
+2024-07-22,Northern,SKU007,Paediatric Paracetamol Syrup,Paediatric,163,133,2.06,22.4,MEDIUM,Flu season spike,407,2024-08-05,LOW,HIGH
+2024-07-22,Northern,SKU009,Salbutamol Inhaler,Respiratory,81,64,2.75,26.9,MEDIUM,Flu season spike,202,2024-08-05,LOW,HIGH
+2024-07-22,Northern,SKU010,Cetirizine 10mg,Antihistamine,144,116,2.42,23.8,MEDIUM,Flu season spike,360,2024-08-05,LOW,HIGH
+2024-07-22,Sabaragamuwa,SKU001,Paracetamol 500mg,Antipyretic,283,236,2.66,19.9,MEDIUM,Flu season spike,707,2024-08-05,LOW,HIGH
+2024-07-22,Sabaragamuwa,SKU002,Ibuprofen 400mg,Antipyretic,155,127,2.04,21.9,MEDIUM,Flu season spike,387,2024-08-05,LOW,HIGH
+2024-07-22,Sabaragamuwa,SKU010,Cetirizine 10mg,Antihistamine,115,90,2.78,28.0,MEDIUM,Flu season spike,287,2024-08-05,LOW,HIGH
+2024-07-22,Sabaragamuwa,SKU013,Vitamin C 500mg,Supplement,173,120,2.77,43.8,MEDIUM,Flu season spike,432,2024-08-05,LOW,HIGH
+2024-07-22,Uva,SKU004,Azithromycin 250mg,Antibiotic,66,54,2.12,22.2,MEDIUM,Flu season spike,165,2024-08-05,LOW,HIGH
+2024-07-22,Western,SKU004,Azithromycin 250mg,Antibiotic,728,550,2.18,32.2,MEDIUM,Flu season spike,1820,2024-08-05,LOW,HIGH
+2024-07-15,North Western,SKU003,Amoxicillin 500mg,Antibiotic,265,205,2.73,29.4,MEDIUM,Flu season spike,662,2024-07-29,LOW,MEDIUM
+2024-07-15,Uva,SKU011,Metformin 500mg,Diabetes,118,101,2.26,16.6,MEDIUM,Flu season spike,295,2024-07-29,LOW,MEDIUM
+2024-07-15,Uva,SKU012,Amlodipine 5mg,Cardiovascular,105,90,2.83,17.3,MEDIUM,Flu season spike,262,2024-07-29,LOW,MEDIUM
+2024-07-08,Northern,SKU004,Azithromycin 250mg,Antibiotic,95,80,2.23,18.5,MEDIUM,Flu season spike,237,2024-07-22,LOW,MEDIUM
+2024-07-08,Northern,SKU011,Metformin 500mg,Diabetes,190,163,2.3,16.3,MEDIUM,Flu season spike,475,2024-07-22,LOW,MEDIUM
+2024-07-08,Southern,SKU009,Salbutamol Inhaler,Respiratory,116,93,2.41,24.5,MEDIUM,Flu season spike,290,2024-07-22,LOW,MEDIUM
+2024-07-08,Southern,SKU012,Amlodipine 5mg,Cardiovascular,307,232,2.41,32.6,MEDIUM,Flu season spike,767,2024-07-22,LOW,MEDIUM
+2024-07-08,Uva,SKU008,Children's Multivitamin,Paediatric,76,53,2.12,42.5,MEDIUM,Flu season spike,190,2024-07-22,LOW,MEDIUM
+2024-07-08,Uva,SKU009,Salbutamol Inhaler,Respiratory,40,35,2.42,14.8,MEDIUM,Flu season spike,100,2024-07-22,LOW,MEDIUM
+2024-07-01,Eastern,SKU011,Metformin 500mg,Diabetes,219,168,2.91,30.5,MEDIUM,Demand spike detected,547,2024-07-15,LOW,LOW
+2024-07-01,Eastern,SKU012,Amlodipine 5mg,Cardiovascular,173,143,2.41,21.0,MEDIUM,Demand spike detected,432,2024-07-15,LOW,LOW
+2024-07-01,North Central,SKU008,Children's Multivitamin,Paediatric,92,77,2.0,19.5,MEDIUM,Demand spike detected,230,2024-07-15,LOW,LOW
+2024-07-01,North Western,SKU008,Children's Multivitamin,Paediatric,256,193,2.66,32.6,MEDIUM,Demand spike detected,640,2024-07-15,LOW,LOW
+2024-06-24,Southern,SKU008,Children's Multivitamin,Paediatric,199,148,2.7,34.5,MEDIUM,Demand spike detected,497,2024-07-08,LOW,LOW
+2024-06-17,Eastern,SKU009,Salbutamol Inhaler,Respiratory,74,62,2.18,19.0,MEDIUM,Dengue outbreak signal,185,2024-07-01,MEDIUM,LOW
+2024-06-17,Eastern,SKU013,Vitamin C 500mg,Supplement,194,158,2.83,22.5,MEDIUM,Dengue outbreak signal,485,2024-07-01,MEDIUM,LOW
+2024-06-17,North Western,SKU011,Metformin 500mg,Diabetes,364,324,2.13,12.5,MEDIUM,Dengue outbreak signal,910,2024-07-01,MEDIUM,LOW
+2024-06-10,Central,SKU008,Children's Multivitamin,Paediatric,212,169,2.02,25.6,MEDIUM,Dengue outbreak signal,530,2024-06-24,HIGH,LOW
+2024-06-10,Central,SKU014,Zinc Supplement,Supplement,192,167,2.0,15.1,MEDIUM,Dengue outbreak signal,480,2024-06-24,HIGH,LOW
+2024-06-10,North Western,SKU009,Salbutamol Inhaler,Respiratory,134,114,2.78,17.4,MEDIUM,Dengue outbreak signal,335,2024-06-24,HIGH,LOW
+2024-06-10,North Western,SKU013,Vitamin C 500mg,Supplement,408,297,2.41,37.5,MEDIUM,Dengue outbreak signal,1020,2024-06-24,HIGH,LOW
+2024-06-10,Northern,SKU009,Salbutamol Inhaler,Respiratory,69,60,2.05,16.0,MEDIUM,Dengue outbreak signal,172,2024-06-24,HIGH,LOW
+2024-06-03,Eastern,SKU014,Zinc Supplement,Supplement,97,78,2.12,24.4,MEDIUM,Dengue outbreak signal,242,2024-06-17,HIGH,LOW
+2024-06-03,Northern,SKU001,Paracetamol 500mg,Antipyretic,432,311,2.04,39.1,MEDIUM,Dengue outbreak signal,1080,2024-06-17,HIGH,LOW
+2024-06-03,Northern,SKU009,Salbutamol Inhaler,Respiratory,67,57,2.82,17.2,MEDIUM,Dengue outbreak signal,167,2024-06-17,HIGH,LOW
+2024-06-03,Sabaragamuwa,SKU014,Zinc Supplement,Supplement,86,66,2.08,29.3,MEDIUM,Dengue outbreak signal,215,2024-06-17,HIGH,LOW
+2024-06-03,Uva,SKU001,Paracetamol 500mg,Antipyretic,293,191,2.09,53.1,MEDIUM,Dengue outbreak signal,732,2024-06-17,HIGH,LOW
+2024-06-03,Uva,SKU006,ORS Sachets,Rehydration,250,161,2.43,55.3,MEDIUM,Dengue outbreak signal,625,2024-06-17,HIGH,LOW
+2024-06-03,Western,SKU009,Salbutamol Inhaler,Respiratory,427,377,2.61,13.2,MEDIUM,Dengue outbreak signal,1067,2024-06-17,HIGH,LOW
+2024-05-27,Central,SKU014,Zinc Supplement,Supplement,187,149,2.31,25.5,MEDIUM,Dengue outbreak signal,467,2024-06-10,HIGH,LOW
+2024-05-27,Eastern,SKU003,Amoxicillin 500mg,Antibiotic,158,114,2.25,38.2,MEDIUM,Dengue outbreak signal,395,2024-06-10,HIGH,LOW
+2024-05-27,Eastern,SKU014,Zinc Supplement,Supplement,91,73,2.14,24.4,MEDIUM,Dengue outbreak signal,227,2024-06-10,HIGH,LOW
+2024-05-27,North Central,SKU004,Azithromycin 250mg,Antibiotic,86,60,2.68,42.5,MEDIUM,Dengue outbreak signal,215,2024-06-10,HIGH,LOW
+2024-05-27,North Central,SKU006,ORS Sachets,Rehydration,332,201,2.56,65.2,MEDIUM,Dengue outbreak signal,830,2024-06-10,HIGH,LOW
+2024-05-27,North Central,SKU010,Cetirizine 10mg,Antihistamine,124,96,2.02,29.8,MEDIUM,Dengue outbreak signal,310,2024-06-10,HIGH,LOW
+2024-05-27,North Western,SKU004,Azithromycin 250mg,Antibiotic,195,155,2.21,25.9,MEDIUM,Dengue outbreak signal,487,2024-06-10,HIGH,LOW
+2024-05-27,North Western,SKU005,Dengue Rapid Test Kit,Diagnostics,242,135,2.08,78.8,MEDIUM,Dengue outbreak signal,605,2024-06-10,HIGH,LOW
+2024-05-27,North Western,SKU006,ORS Sachets,Rehydration,904,542,2.57,66.7,MEDIUM,Dengue outbreak signal,2260,2024-06-10,HIGH,LOW
+2024-05-27,North Western,SKU010,Cetirizine 10mg,Antihistamine,321,249,2.95,29.1,MEDIUM,Dengue outbreak signal,802,2024-06-10,HIGH,LOW
+2024-05-27,Northern,SKU013,Vitamin C 500mg,Supplement,179,139,2.56,28.5,MEDIUM,Dengue outbreak signal,447,2024-06-10,HIGH,LOW
+2024-05-27,Sabaragamuwa,SKU001,Paracetamol 500mg,Antipyretic,398,236,2.59,68.4,MEDIUM,Dengue outbreak signal,995,2024-06-10,HIGH,LOW
+2024-05-27,Sabaragamuwa,SKU004,Azithromycin 250mg,Antibiotic,83,63,2.22,31.7,MEDIUM,Dengue outbreak signal,207,2024-06-10,HIGH,LOW
+2024-05-27,Uva,SKU005,Dengue Rapid Test Kit,Diagnostics,71,42,2.28,71.1,MEDIUM,Dengue outbreak signal,177,2024-06-10,HIGH,LOW
+2024-05-27,Uva,SKU014,Zinc Supplement,Supplement,68,51,2.02,32.5,MEDIUM,Dengue outbreak signal,170,2024-06-10,HIGH,LOW
+2024-05-27,Western,SKU002,Ibuprofen 400mg,Antipyretic,1742,1153,2.62,51.1,MEDIUM,Dengue outbreak signal,4355,2024-06-10,HIGH,LOW
+2024-05-27,Western,SKU004,Azithromycin 250mg,Antibiotic,750,561,2.95,33.8,MEDIUM,Dengue outbreak signal,1875,2024-06-10,HIGH,LOW
+2024-05-20,Central,SKU005,Dengue Rapid Test Kit,Diagnostics,198,112,2.05,76.3,MEDIUM,Dengue outbreak signal,495,2024-06-03,HIGH,LOW
+2024-05-20,Central,SKU009,Salbutamol Inhaler,Respiratory,131,107,2.36,22.2,MEDIUM,Dengue outbreak signal,327,2024-06-03,HIGH,LOW
+2024-05-20,Central,SKU010,Cetirizine 10mg,Antihistamine,309,192,2.76,61.1,MEDIUM,Dengue outbreak signal,772,2024-06-03,HIGH,LOW
+2024-05-20,Central,SKU012,Amlodipine 5mg,Cardiovascular,302,252,2.1,20.1,MEDIUM,Dengue outbreak signal,755,2024-06-03,HIGH,LOW
+2024-05-20,Eastern,SKU003,Amoxicillin 500mg,Antibiotic,143,106,2.51,34.7,MEDIUM,Dengue outbreak signal,357,2024-06-03,HIGH,LOW
+2024-05-20,Eastern,SKU006,ORS Sachets,Rehydration,398,247,2.5,61.2,MEDIUM,Dengue outbreak signal,995,2024-06-03,HIGH,LOW
+2024-05-20,North Central,SKU001,Paracetamol 500mg,Antipyretic,341,220,2.05,54.6,MEDIUM,Dengue outbreak signal,852,2024-06-03,HIGH,LOW
+2024-05-20,North Central,SKU007,Paediatric Paracetamol Syrup,Paediatric,170,115,2.43,48.3,MEDIUM,Dengue outbreak signal,425,2024-06-03,HIGH,LOW
+2024-05-20,North Central,SKU010,Cetirizine 10mg,Antihistamine,115,92,2.18,24.8,MEDIUM,Dengue outbreak signal,287,2024-06-03,HIGH,LOW
+2024-05-20,Northern,SKU007,Paediatric Paracetamol Syrup,Paediatric,227,140,2.6,62.7,MEDIUM,Dengue outbreak signal,567,2024-06-03,HIGH,LOW
+2024-05-20,Sabaragamuwa,SKU002,Ibuprofen 400mg,Antipyretic,188,120,2.7,56.0,MEDIUM,Dengue outbreak signal,470,2024-06-03,HIGH,LOW
+2024-05-20,Sabaragamuwa,SKU005,Dengue Rapid Test Kit,Diagnostics,86,47,2.07,83.6,MEDIUM,Dengue outbreak signal,215,2024-06-03,HIGH,LOW
+2024-05-20,Southern,SKU006,ORS Sachets,Rehydration,536,349,2.46,53.6,MEDIUM,Dengue outbreak signal,1340,2024-06-03,HIGH,LOW
+2024-05-20,Uva,SKU005,Dengue Rapid Test Kit,Diagnostics,61,36,2.59,70.2,MEDIUM,Dengue outbreak signal,152,2024-06-03,HIGH,LOW
+2024-05-20,Uva,SKU010,Cetirizine 10mg,Antihistamine,102,65,2.09,56.5,MEDIUM,Dengue outbreak signal,255,2024-06-03,HIGH,LOW
+2024-05-20,Uva,SKU013,Vitamin C 500mg,Supplement,106,81,2.3,30.3,MEDIUM,Dengue outbreak signal,265,2024-06-03,HIGH,LOW
+2024-05-20,Western,SKU001,Paracetamol 500mg,Antipyretic,2711,1835,2.51,47.7,MEDIUM,Dengue outbreak signal,6777,2024-06-03,HIGH,LOW
+2024-05-20,Western,SKU004,Azithromycin 250mg,Antibiotic,657,535,2.63,22.8,MEDIUM,Dengue outbreak signal,1642,2024-06-03,HIGH,LOW
+2024-05-20,Western,SKU005,Dengue Rapid Test Kit,Diagnostics,729,396,2.59,84.2,MEDIUM,Dengue outbreak signal,1822,2024-06-03,HIGH,LOW
+2024-05-20,Western,SKU007,Paediatric Paracetamol Syrup,Paediatric,1315,834,2.75,57.7,MEDIUM,Dengue outbreak signal,3287,2024-06-03,HIGH,LOW
+2024-05-13,Central,SKU006,ORS Sachets,Rehydration,543,387,2.85,40.4,MEDIUM,Dengue outbreak signal,1357,2024-05-27,HIGH,LOW
+2024-05-13,Central,SKU015,Omeprazole 20mg,Gastrointestinal,213,179,2.15,19.0,MEDIUM,Dengue outbreak signal,532,2024-05-27,HIGH,LOW
+2024-05-13,Eastern,SKU001,Paracetamol 500mg,Antipyretic,328,242,2.2,35.6,MEDIUM,Dengue outbreak signal,820,2024-05-27,HIGH,LOW
+2024-05-13,Eastern,SKU006,ORS Sachets,Rehydration,337,224,2.65,50.2,MEDIUM,Dengue outbreak signal,842,2024-05-27,HIGH,LOW
+2024-05-13,Eastern,SKU007,Paediatric Paracetamol Syrup,Paediatric,195,128,2.64,52.3,MEDIUM,Dengue outbreak signal,487,2024-05-27,HIGH,LOW
+2024-05-13,North Central,SKU003,Amoxicillin 500mg,Antibiotic,109,75,2.86,45.0,MEDIUM,Dengue outbreak signal,272,2024-05-27,HIGH,LOW
+2024-05-13,North Central,SKU014,Zinc Supplement,Supplement,77,61,2.52,26.2,MEDIUM,Dengue outbreak signal,192,2024-05-27,HIGH,LOW
+2024-05-13,North Central,SKU015,Omeprazole 20mg,Gastrointestinal,92,83,2.56,10.8,MEDIUM,Dengue outbreak signal,230,2024-05-27,HIGH,LOW
+2024-05-13,North Western,SKU006,ORS Sachets,Rehydration,581,456,2.01,27.3,MEDIUM,Dengue outbreak signal,1452,2024-05-27,HIGH,LOW
+2024-05-13,Northern,SKU001,Paracetamol 500mg,Antipyretic,380,270,2.35,40.7,MEDIUM,Dengue outbreak signal,950,2024-05-27,HIGH,LOW
+2024-05-13,Sabaragamuwa,SKU001,Paracetamol 500mg,Antipyretic,305,203,2.63,50.2,MEDIUM,Dengue outbreak signal,762,2024-05-27,HIGH,LOW
+2024-05-13,Sabaragamuwa,SKU004,Azithromycin 250mg,Antibiotic,76,58,2.34,31.4,MEDIUM,Dengue outbreak signal,190,2024-05-27,HIGH,LOW
+2024-05-13,Sabaragamuwa,SKU015,Omeprazole 20mg,Gastrointestinal,100,74,2.22,36.1,MEDIUM,Dengue outbreak signal,250,2024-05-27,HIGH,LOW
+2024-05-13,Southern,SKU004,Azithromycin 250mg,Antibiotic,157,118,2.89,32.9,MEDIUM,Dengue outbreak signal,392,2024-05-27,HIGH,LOW
+2024-05-13,Southern,SKU005,Dengue Rapid Test Kit,Diagnostics,141,94,2.54,50.0,MEDIUM,Dengue outbreak signal,352,2024-05-27,HIGH,LOW
+2024-05-13,Southern,SKU014,Zinc Supplement,Supplement,158,120,2.25,31.5,MEDIUM,Dengue outbreak signal,395,2024-05-27,HIGH,LOW
+2024-05-13,Uva,SKU001,Paracetamol 500mg,Antipyretic,202,163,2.08,24.1,MEDIUM,Dengue outbreak signal,505,2024-05-27,HIGH,LOW
+2024-05-13,Uva,SKU002,Ibuprofen 400mg,Antipyretic,128,94,2.03,35.9,MEDIUM,Dengue outbreak signal,320,2024-05-27,HIGH,LOW
+2024-05-13,Uva,SKU005,Dengue Rapid Test Kit,Diagnostics,50,33,2.48,50.8,MEDIUM,Dengue outbreak signal,125,2024-05-27,HIGH,LOW
+2024-05-13,Uva,SKU007,Paediatric Paracetamol Syrup,Paediatric,116,77,2.6,50.0,MEDIUM,Dengue outbreak signal,290,2024-05-27,HIGH,LOW
+2024-05-13,Western,SKU003,Amoxicillin 500mg,Antibiotic,869,720,2.47,20.7,MEDIUM,Dengue outbreak signal,2172,2024-05-27,HIGH,LOW
+2024-05-13,Western,SKU004,Azithromycin 250mg,Antibiotic,626,532,2.39,17.7,MEDIUM,Dengue outbreak signal,1565,2024-05-27,HIGH,LOW
+2024-05-13,Western,SKU005,Dengue Rapid Test Kit,Diagnostics,600,358,2.98,67.4,MEDIUM,Dengue outbreak signal,1500,2024-05-27,HIGH,LOW
+2024-05-13,Western,SKU013,Vitamin C 500mg,Supplement,1187,907,3.0,30.8,MEDIUM,Dengue outbreak signal,2967,2024-05-27,HIGH,LOW
+2024-05-13,Western,SKU014,Zinc Supplement,Supplement,609,519,2.26,17.4,MEDIUM,Dengue outbreak signal,1522,2024-05-27,HIGH,LOW
+2024-05-13,Western,SKU015,Omeprazole 20mg,Gastrointestinal,846,633,2.9,33.7,MEDIUM,Dengue outbreak signal,2115,2024-05-27,HIGH,LOW
+2024-05-06,Central,SKU001,Paracetamol 500mg,Antipyretic,590,466,2.73,26.7,MEDIUM,Dengue outbreak signal,1475,2024-05-20,MEDIUM,LOW
+2024-05-06,Central,SKU003,Amoxicillin 500mg,Antibiotic,202,177,2.06,13.9,MEDIUM,Dengue outbreak signal,505,2024-05-20,MEDIUM,LOW
+2024-05-06,Central,SKU010,Cetirizine 10mg,Antihistamine,241,173,2.99,39.6,MEDIUM,Dengue outbreak signal,602,2024-05-20,MEDIUM,LOW
+2024-05-06,Eastern,SKU003,Amoxicillin 500mg,Antibiotic,108,98,2.4,10.8,MEDIUM,Dengue outbreak signal,270,2024-05-20,MEDIUM,LOW
+2024-05-06,Eastern,SKU005,Dengue Rapid Test Kit,Diagnostics,63,48,2.53,31.2,MEDIUM,Dengue outbreak signal,157,2024-05-20,MEDIUM,LOW
+2024-05-06,North Central,SKU001,Paracetamol 500mg,Antipyretic,259,193,2.96,34.0,MEDIUM,Dengue outbreak signal,647,2024-05-20,MEDIUM,LOW
+2024-05-06,North Central,SKU006,ORS Sachets,Rehydration,229,164,2.18,39.9,MEDIUM,Dengue outbreak signal,572,2024-05-20,MEDIUM,LOW
+2024-05-06,North Western,SKU003,Amoxicillin 500mg,Antibiotic,261,194,2.93,34.5,MEDIUM,Dengue outbreak signal,652,2024-05-20,MEDIUM,LOW
+2024-05-06,North Western,SKU005,Dengue Rapid Test Kit,Diagnostics,123,100,2.03,22.4,MEDIUM,Dengue outbreak signal,307,2024-05-20,MEDIUM,LOW
+2024-05-06,North Western,SKU007,Paediatric Paracetamol Syrup,Paediatric,344,232,2.96,48.6,MEDIUM,Dengue outbreak signal,860,2024-05-20,MEDIUM,LOW
+2024-05-06,North Western,SKU014,Zinc Supplement,Supplement,161,142,2.5,13.2,MEDIUM,Dengue outbreak signal,402,2024-05-20,MEDIUM,LOW
+2024-05-06,Northern,SKU001,Paracetamol 500mg,Antipyretic,333,256,2.18,29.8,MEDIUM,Dengue outbreak signal,832,2024-05-20,MEDIUM,LOW
+2024-05-06,Northern,SKU006,ORS Sachets,Rehydration,242,186,2.51,29.9,MEDIUM,Dengue outbreak signal,605,2024-05-20,MEDIUM,LOW
+2024-05-06,Southern,SKU001,Paracetamol 500mg,Antipyretic,506,363,2.66,39.5,MEDIUM,Dengue outbreak signal,1265,2024-05-20,MEDIUM,LOW
+2024-05-06,Southern,SKU012,Amlodipine 5mg,Cardiovascular,303,226,2.48,33.8,MEDIUM,Dengue outbreak signal,757,2024-05-20,MEDIUM,LOW
+2024-05-06,Uva,SKU002,Ibuprofen 400mg,Antipyretic,120,89,2.87,35.3,MEDIUM,Dengue outbreak signal,300,2024-05-20,MEDIUM,LOW
+2024-05-06,Uva,SKU006,ORS Sachets,Rehydration,149,118,2.68,26.8,MEDIUM,Dengue outbreak signal,372,2024-05-20,MEDIUM,LOW
+2024-05-06,Uva,SKU014,Zinc Supplement,Supplement,57,47,2.19,20.4,MEDIUM,Dengue outbreak signal,142,2024-05-20,MEDIUM,LOW
+2024-05-06,Uva,SKU015,Omeprazole 20mg,Gastrointestinal,79,66,2.45,19.1,MEDIUM,Dengue outbreak signal,197,2024-05-20,MEDIUM,LOW
+2024-05-06,Western,SKU001,Paracetamol 500mg,Antipyretic,2208,1706,2.39,29.4,MEDIUM,Dengue outbreak signal,5520,2024-05-20,MEDIUM,LOW
+2024-05-06,Western,SKU005,Dengue Rapid Test Kit,Diagnostics,496,342,2.93,45.0,MEDIUM,Dengue outbreak signal,1240,2024-05-20,MEDIUM,LOW
+2024-05-06,Western,SKU014,Zinc Supplement,Supplement,595,514,2.87,15.9,MEDIUM,Dengue outbreak signal,1487,2024-05-20,MEDIUM,LOW
+2024-04-29,Central,SKU005,Dengue Rapid Test Kit,Diagnostics,97,85,2.22,14.3,MEDIUM,Demand spike detected,242,2024-05-13,LOW,LOW
+2024-04-29,Central,SKU012,Amlodipine 5mg,Cardiovascular,295,250,2.61,17.9,MEDIUM,Demand spike detected,737,2024-05-13,LOW,LOW
+2024-04-29,Uva,SKU006,ORS Sachets,Rehydration,135,113,2.63,19.3,MEDIUM,Demand spike detected,337,2024-05-13,LOW,LOW
+2024-04-22,Central,SKU001,Paracetamol 500mg,Antipyretic,537,470,2.19,14.3,MEDIUM,Demand spike detected,1342,2024-05-06,LOW,LOW
+2024-04-22,Central,SKU011,Metformin 500mg,Diabetes,372,302,2.12,23.3,MEDIUM,Demand spike detected,930,2024-05-06,LOW,LOW
+2024-04-22,North Western,SKU010,Cetirizine 10mg,Antihistamine,250,223,2.4,12.2,MEDIUM,Demand spike detected,625,2024-05-06,LOW,LOW
+2024-04-22,Northern,SKU011,Metformin 500mg,Diabetes,174,162,2.12,7.6,MEDIUM,Demand spike detected,435,2024-05-06,LOW,LOW
+2024-04-15,Central,SKU011,Metformin 500mg,Diabetes,346,294,2.06,17.7,MEDIUM,Demand spike detected,865,2024-04-29,LOW,LOW
+2024-04-15,Eastern,SKU005,Dengue Rapid Test Kit,Diagnostics,58,47,2.07,23.0,MEDIUM,Demand spike detected,145,2024-04-29,LOW,LOW
+2024-04-15,Eastern,SKU010,Cetirizine 10mg,Antihistamine,127,112,2.36,13.4,MEDIUM,Demand spike detected,317,2024-04-29,LOW,LOW
+2024-04-15,Northern,SKU002,Ibuprofen 400mg,Antipyretic,171,137,2.26,24.8,MEDIUM,Demand spike detected,427,2024-04-29,LOW,LOW
+2024-04-15,Southern,SKU014,Zinc Supplement,Supplement,142,120,2.32,18.7,MEDIUM,Demand spike detected,355,2024-04-29,LOW,LOW
+2024-04-15,Western,SKU011,Metformin 500mg,Diabetes,1514,1187,2.48,27.5,MEDIUM,Demand spike detected,3785,2024-04-29,LOW,LOW
+2024-04-08,North Central,SKU006,ORS Sachets,Rehydration,174,160,2.12,9.1,MEDIUM,Demand spike detected,435,2024-04-22,LOW,LOW
+2024-04-08,North Western,SKU005,Dengue Rapid Test Kit,Diagnostics,111,98,2.36,13.7,MEDIUM,Demand spike detected,277,2024-04-22,LOW,LOW
+2024-04-08,Sabaragamuwa,SKU005,Dengue Rapid Test Kit,Diagnostics,44,38,2.61,16.8,MEDIUM,Demand spike detected,110,2024-04-22,LOW,LOW
+2024-04-08,Southern,SKU015,Omeprazole 20mg,Gastrointestinal,211,164,2.33,28.4,MEDIUM,Demand spike detected,527,2024-04-22,LOW,LOW
+2024-04-08,Western,SKU008,Children's Multivitamin,Paediatric,791,691,2.05,14.5,MEDIUM,Demand spike detected,1977,2024-04-22,LOW,LOW
+2024-04-01,Central,SKU002,Ibuprofen 400mg,Antipyretic,334,269,2.05,24.0,MEDIUM,Demand spike detected,835,2024-04-15,LOW,LOW
+2024-04-01,Eastern,SKU013,Vitamin C 500mg,Supplement,171,143,2.34,19.4,MEDIUM,Demand spike detected,427,2024-04-15,LOW,LOW
+2024-04-01,North Central,SKU010,Cetirizine 10mg,Antihistamine,101,88,2.32,15.2,MEDIUM,Demand spike detected,252,2024-04-15,LOW,LOW
+2024-04-01,Sabaragamuwa,SKU006,ORS Sachets,Rehydration,184,168,2.59,9.9,MEDIUM,Demand spike detected,460,2024-04-15,LOW,LOW
+2024-04-01,Sabaragamuwa,SKU007,Paediatric Paracetamol Syrup,Paediatric,134,110,2.04,22.0,MEDIUM,Demand spike detected,335,2024-04-15,LOW,LOW
+2024-04-01,Uva,SKU007,Paediatric Paracetamol Syrup,Paediatric,94,78,2.02,20.0,MEDIUM,Demand spike detected,235,2024-04-15,LOW,LOW
+2024-03-25,Eastern,SKU013,Vitamin C 500mg,Supplement,161,140,2.46,14.6,MEDIUM,Demand spike detected,402,2024-04-08,LOW,LOW
+2024-03-25,North Western,SKU013,Vitamin C 500mg,Supplement,353,306,2.27,15.2,MEDIUM,Demand spike detected,882,2024-04-08,LOW,LOW
+2024-03-25,Uva,SKU005,Dengue Rapid Test Kit,Diagnostics,36,28,2.08,29.3,MEDIUM,Demand spike detected,90,2024-04-08,LOW,LOW
+2024-03-25,Uva,SKU015,Omeprazole 20mg,Gastrointestinal,73,62,2.15,17.4,MEDIUM,Demand spike detected,182,2024-04-08,LOW,LOW
+2024-03-18,Eastern,SKU005,Dengue Rapid Test Kit,Diagnostics,57,49,2.2,16.7,MEDIUM,Demand spike detected,142,2024-04-01,LOW,LOW
+2024-03-18,Uva,SKU008,Children's Multivitamin,Paediatric,76,62,2.98,21.9,MEDIUM,Demand spike detected,190,2024-04-01,LOW,LOW
+2024-03-18,Western,SKU011,Metformin 500mg,Diabetes,1411,1162,3.0,21.4,MEDIUM,Demand spike detected,3527,2024-04-01,LOW,LOW
+2024-03-18,Western,SKU012,Amlodipine 5mg,Cardiovascular,1216,1015,2.89,19.8,MEDIUM,Demand spike detected,3040,2024-04-01,LOW,LOW
+2024-03-11,Eastern,SKU012,Amlodipine 5mg,Cardiovascular,169,134,2.03,25.8,MEDIUM,Demand spike detected,422,2024-03-25,LOW,LOW
+2024-02-19,Central,SKU008,Children's Multivitamin,Paediatric,223,180,2.06,23.5,MEDIUM,Demand spike detected,557,2024-03-04,LOW,LOW
+2024-02-19,Eastern,SKU008,Children's Multivitamin,Paediatric,127,97,2.56,31.4,MEDIUM,Demand spike detected,317,2024-03-04,LOW,LOW
+2024-02-19,North Western,SKU005,Dengue Rapid Test Kit,Diagnostics,118,96,2.49,22.7,MEDIUM,Demand spike detected,295,2024-03-04,LOW,LOW
+2024-02-19,Southern,SKU012,Amlodipine 5mg,Cardiovascular,279,240,2.31,16.5,MEDIUM,Demand spike detected,697,2024-03-04,LOW,LOW
+2024-02-12,North Western,SKU005,Dengue Rapid Test Kit,Diagnostics,111,90,2.27,23.3,MEDIUM,Flu season spike,277,2024-02-26,LOW,MEDIUM
+2024-02-12,Northern,SKU008,Children's Multivitamin,Paediatric,116,94,2.84,22.8,MEDIUM,Flu season spike,290,2024-02-26,LOW,MEDIUM
+2024-02-12,Southern,SKU008,Children's Multivitamin,Paediatric,208,146,2.91,42.1,MEDIUM,Flu season spike,520,2024-02-26,LOW,MEDIUM
+2024-02-05,North Central,SKU003,Amoxicillin 500mg,Antibiotic,126,101,2.26,24.8,MEDIUM,Flu season spike,315,2024-02-19,LOW,HIGH
+2024-02-05,North Central,SKU005,Dengue Rapid Test Kit,Diagnostics,48,38,2.1,25.0,MEDIUM,Flu season spike,120,2024-02-19,LOW,HIGH
+2024-02-05,Sabaragamuwa,SKU001,Paracetamol 500mg,Antipyretic,284,237,2.82,19.7,MEDIUM,Flu season spike,710,2024-02-19,LOW,HIGH
+2024-02-05,Southern,SKU005,Dengue Rapid Test Kit,Diagnostics,94,80,2.24,17.8,MEDIUM,Flu season spike,235,2024-02-19,LOW,HIGH
+2024-01-29,Eastern,SKU004,Azithromycin 250mg,Antibiotic,123,94,2.5,31.6,MEDIUM,Flu season spike,307,2024-02-12,LOW,HIGH
+2024-01-29,North Central,SKU012,Amlodipine 5mg,Cardiovascular,144,110,2.21,30.6,MEDIUM,Flu season spike,360,2024-02-12,LOW,HIGH
+2024-01-29,Northern,SKU008,Children's Multivitamin,Paediatric,104,90,2.87,15.2,MEDIUM,Flu season spike,260,2024-02-12,LOW,HIGH
+2024-01-29,Northern,SKU010,Cetirizine 10mg,Antihistamine,144,114,2.4,26.3,MEDIUM,Flu season spike,360,2024-02-12,LOW,HIGH
+2024-01-29,Sabaragamuwa,SKU011,Metformin 500mg,Diabetes,161,122,3.0,32.2,MEDIUM,Flu season spike,402,2024-02-12,LOW,HIGH
+2024-01-29,Southern,SKU008,Children's Multivitamin,Paediatric,176,138,2.01,27.5,MEDIUM,Flu season spike,440,2024-02-12,LOW,HIGH
+2024-01-29,Uva,SKU005,Dengue Rapid Test Kit,Diagnostics,32,27,2.78,17.4,MEDIUM,Flu season spike,80,2024-02-12,LOW,HIGH
+2024-01-29,Uva,SKU007,Paediatric Paracetamol Syrup,Paediatric,115,96,2.2,19.2,MEDIUM,Flu season spike,287,2024-02-12,LOW,HIGH
+2024-01-22,Central,SKU002,Ibuprofen 400mg,Antipyretic,418,313,2.57,33.5,MEDIUM,Flu season spike,1045,2024-02-05,LOW,HIGH
+2024-01-22,Central,SKU006,ORS Sachets,Rehydration,515,426,2.14,20.8,MEDIUM,Flu season spike,1287,2024-02-05,LOW,HIGH
+2024-01-22,Eastern,SKU009,Salbutamol Inhaler,Respiratory,82,72,2.39,13.4,MEDIUM,Flu season spike,205,2024-02-05,LOW,HIGH
+2024-01-22,North Central,SKU006,ORS Sachets,Rehydration,218,167,2.51,30.5,MEDIUM,Flu season spike,545,2024-02-05,LOW,HIGH
+2024-01-22,North Central,SKU009,Salbutamol Inhaler,Respiratory,60,53,2.4,13.9,MEDIUM,Flu season spike,150,2024-02-05,LOW,HIGH
+2024-01-22,Northern,SKU011,Metformin 500mg,Diabetes,208,163,2.05,27.3,MEDIUM,Flu season spike,520,2024-02-05,LOW,HIGH
+2024-01-22,Sabaragamuwa,SKU014,Zinc Supplement,Supplement,76,66,2.89,15.2,MEDIUM,Flu season spike,190,2024-02-05,LOW,HIGH
+2024-01-22,Southern,SKU002,Ibuprofen 400mg,Antipyretic,362,305,2.32,18.6,MEDIUM,Flu season spike,905,2024-02-05,LOW,HIGH
+2024-01-22,Uva,SKU006,ORS Sachets,Rehydration,161,123,2.13,31.2,MEDIUM,Flu season spike,402,2024-02-05,LOW,HIGH
+2024-01-22,Uva,SKU010,Cetirizine 10mg,Antihistamine,89,75,2.65,18.7,MEDIUM,Flu season spike,222,2024-02-05,LOW,HIGH
+2024-01-22,Western,SKU005,Dengue Rapid Test Kit,Diagnostics,345,292,2.6,18.0,MEDIUM,Flu season spike,862,2024-02-05,LOW,HIGH
+2024-01-22,Western,SKU009,Salbutamol Inhaler,Respiratory,530,437,2.89,21.3,MEDIUM,Flu season spike,1325,2024-02-05,LOW,HIGH

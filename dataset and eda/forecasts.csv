@@ -1,0 +1,541 @@
+forecast_date,region,sku_id,medicine_name,category,prophet_forecast,xgb_forecast,ensemble_forecast,lower_bound,upper_bound
+2025-01-05,Central,SKU001,Paracetamol 500mg,Antipyretic,648,580,618,586,713
+2025-01-12,Central,SKU001,Paracetamol 500mg,Antipyretic,692,580,642,627,755
+2025-01-19,Central,SKU001,Paracetamol 500mg,Antipyretic,715,580,654,651,779
+2025-01-26,Central,SKU001,Paracetamol 500mg,Antipyretic,719,580,657,656,778
+2025-01-05,Eastern,SKU001,Paracetamol 500mg,Antipyretic,309,333,320,265,355
+2025-01-12,Eastern,SKU001,Paracetamol 500mg,Antipyretic,322,333,327,279,368
+2025-01-19,Eastern,SKU001,Paracetamol 500mg,Antipyretic,342,333,338,298,384
+2025-01-26,Eastern,SKU001,Paracetamol 500mg,Antipyretic,356,333,345,311,401
+2025-01-05,North Central,SKU001,Paracetamol 500mg,Antipyretic,248,249,248,226,267
+2025-01-12,North Central,SKU001,Paracetamol 500mg,Antipyretic,270,249,261,247,293
+2025-01-19,North Central,SKU001,Paracetamol 500mg,Antipyretic,260,249,255,238,280
+2025-01-26,North Central,SKU001,Paracetamol 500mg,Antipyretic,233,249,240,212,253
+2025-01-05,North Western,SKU001,Paracetamol 500mg,Antipyretic,467,596,525,386,546
+2025-01-12,North Western,SKU001,Paracetamol 500mg,Antipyretic,447,596,514,360,530
+2025-01-19,North Western,SKU001,Paracetamol 500mg,Antipyretic,445,596,513,356,532
+2025-01-26,North Western,SKU001,Paracetamol 500mg,Antipyretic,442,596,511,357,527
+2025-01-05,Northern,SKU001,Paracetamol 500mg,Antipyretic,262,317,287,220,304
+2025-01-12,Northern,SKU001,Paracetamol 500mg,Antipyretic,291,317,303,250,329
+2025-01-19,Northern,SKU001,Paracetamol 500mg,Antipyretic,314,317,315,277,355
+2025-01-26,Northern,SKU001,Paracetamol 500mg,Antipyretic,310,317,314,271,350
+2025-01-05,Sabaragamuwa,SKU001,Paracetamol 500mg,Antipyretic,101,244,165,73,130
+2025-01-12,Sabaragamuwa,SKU001,Paracetamol 500mg,Antipyretic,76,244,152,48,104
+2025-01-19,Sabaragamuwa,SKU001,Paracetamol 500mg,Antipyretic,94,244,162,66,124
+2025-01-26,Sabaragamuwa,SKU001,Paracetamol 500mg,Antipyretic,123,244,178,92,153
+2025-01-05,Southern,SKU001,Paracetamol 500mg,Antipyretic,475,521,496,415,541
+2025-01-12,Southern,SKU001,Paracetamol 500mg,Antipyretic,496,521,507,432,558
+2025-01-19,Southern,SKU001,Paracetamol 500mg,Antipyretic,523,521,522,465,586
+2025-01-26,Southern,SKU001,Paracetamol 500mg,Antipyretic,535,521,529,475,598
+2025-01-05,Uva,SKU001,Paracetamol 500mg,Antipyretic,124,195,156,104,143
+2025-01-12,Uva,SKU001,Paracetamol 500mg,Antipyretic,128,195,158,110,147
+2025-01-19,Uva,SKU001,Paracetamol 500mg,Antipyretic,143,195,167,126,162
+2025-01-26,Uva,SKU001,Paracetamol 500mg,Antipyretic,152,195,171,133,169
+2025-01-05,Western,SKU001,Paracetamol 500mg,Antipyretic,2692,2017,2388,2487,2904
+2025-01-12,Western,SKU001,Paracetamol 500mg,Antipyretic,2956,2017,2533,2749,3160
+2025-01-19,Western,SKU001,Paracetamol 500mg,Antipyretic,2934,2017,2521,2721,3133
+2025-01-26,Western,SKU001,Paracetamol 500mg,Antipyretic,2708,2017,2397,2500,2913
+2025-01-05,Central,SKU002,Ibuprofen 400mg,Antipyretic,273,337,302,240,307
+2025-01-12,Central,SKU002,Ibuprofen 400mg,Antipyretic,318,337,326,282,354
+2025-01-19,Central,SKU002,Ibuprofen 400mg,Antipyretic,351,337,345,318,386
+2025-01-26,Central,SKU002,Ibuprofen 400mg,Antipyretic,354,337,347,322,387
+2025-01-05,Eastern,SKU002,Ibuprofen 400mg,Antipyretic,191,163,178,171,208
+2025-01-12,Eastern,SKU002,Ibuprofen 400mg,Antipyretic,198,163,182,179,217
+2025-01-19,Eastern,SKU002,Ibuprofen 400mg,Antipyretic,205,163,186,187,224
+2025-01-26,Eastern,SKU002,Ibuprofen 400mg,Antipyretic,204,163,186,186,222
+2025-01-05,North Central,SKU002,Ibuprofen 400mg,Antipyretic,141,137,139,120,161
+2025-01-12,North Central,SKU002,Ibuprofen 400mg,Antipyretic,139,137,138,118,158
+2025-01-19,North Central,SKU002,Ibuprofen 400mg,Antipyretic,142,137,140,124,162
+2025-01-26,North Central,SKU002,Ibuprofen 400mg,Antipyretic,144,137,141,124,164
+2025-01-05,North Western,SKU002,Ibuprofen 400mg,Antipyretic,455,391,426,411,496
+2025-01-12,North Western,SKU002,Ibuprofen 400mg,Antipyretic,451,391,424,409,496
+2025-01-19,North Western,SKU002,Ibuprofen 400mg,Antipyretic,429,391,412,386,472
+2025-01-26,North Western,SKU002,Ibuprofen 400mg,Antipyretic,409,391,401,364,453
+2025-01-05,Northern,SKU002,Ibuprofen 400mg,Antipyretic,170,177,173,152,185
+2025-01-12,Northern,SKU002,Ibuprofen 400mg,Antipyretic,188,177,183,172,203
+2025-01-19,Northern,SKU002,Ibuprofen 400mg,Antipyretic,201,177,191,185,217
+2025-01-26,Northern,SKU002,Ibuprofen 400mg,Antipyretic,193,177,186,177,209
+2025-01-05,Sabaragamuwa,SKU002,Ibuprofen 400mg,Antipyretic,150,150,150,133,167
+2025-01-12,Sabaragamuwa,SKU002,Ibuprofen 400mg,Antipyretic,154,150,152,138,171
+2025-01-19,Sabaragamuwa,SKU002,Ibuprofen 400mg,Antipyretic,154,150,152,137,172
+2025-01-26,Sabaragamuwa,SKU002,Ibuprofen 400mg,Antipyretic,151,150,151,135,170
+2025-01-05,Southern,SKU002,Ibuprofen 400mg,Antipyretic,253,279,265,215,288
+2025-01-12,Southern,SKU002,Ibuprofen 400mg,Antipyretic,257,279,267,220,290
+2025-01-19,Southern,SKU002,Ibuprofen 400mg,Antipyretic,267,279,273,229,302
+2025-01-26,Southern,SKU002,Ibuprofen 400mg,Antipyretic,267,279,272,232,305
+2025-01-05,Uva,SKU002,Ibuprofen 400mg,Antipyretic,111,119,115,99,124
+2025-01-12,Uva,SKU002,Ibuprofen 400mg,Antipyretic,108,119,113,95,120
+2025-01-19,Uva,SKU002,Ibuprofen 400mg,Antipyretic,95,119,106,82,107
+2025-01-26,Uva,SKU002,Ibuprofen 400mg,Antipyretic,82,119,99,70,94
+2025-01-05,Western,SKU002,Ibuprofen 400mg,Antipyretic,731,994,850,582,877
+2025-01-12,Western,SKU002,Ibuprofen 400mg,Antipyretic,711,994,839,560,871
+2025-01-19,Western,SKU002,Ibuprofen 400mg,Antipyretic,749,994,859,603,893
+2025-01-26,Western,SKU002,Ibuprofen 400mg,Antipyretic,773,994,872,627,916
+2025-01-05,Central,SKU003,Amoxicillin 500mg,Antibiotic,206,222,213,186,225
+2025-01-12,Central,SKU003,Amoxicillin 500mg,Antibiotic,224,222,223,204,243
+2025-01-19,Central,SKU003,Amoxicillin 500mg,Antibiotic,231,222,227,213,250
+2025-01-26,Central,SKU003,Amoxicillin 500mg,Antibiotic,222,222,222,204,241
+2025-01-05,Eastern,SKU003,Amoxicillin 500mg,Antibiotic,127,110,120,119,136
+2025-01-12,Eastern,SKU003,Amoxicillin 500mg,Antibiotic,145,110,129,136,154
+2025-01-19,Eastern,SKU003,Amoxicillin 500mg,Antibiotic,159,110,137,151,168
+2025-01-26,Eastern,SKU003,Amoxicillin 500mg,Antibiotic,163,110,139,154,172
+2025-01-05,North Central,SKU003,Amoxicillin 500mg,Antibiotic,111,106,109,101,121
+2025-01-12,North Central,SKU003,Amoxicillin 500mg,Antibiotic,119,106,113,109,129
+2025-01-19,North Central,SKU003,Amoxicillin 500mg,Antibiotic,131,106,120,122,141
+2025-01-26,North Central,SKU003,Amoxicillin 500mg,Antibiotic,139,106,124,129,149
+2025-01-05,North Western,SKU003,Amoxicillin 500mg,Antibiotic,254,242,249,226,285
+2025-01-12,North Western,SKU003,Amoxicillin 500mg,Antibiotic,271,242,258,243,298
+2025-01-19,North Western,SKU003,Amoxicillin 500mg,Antibiotic,269,242,257,240,297
+2025-01-26,North Western,SKU003,Amoxicillin 500mg,Antibiotic,258,242,251,229,286
+2025-01-05,Northern,SKU003,Amoxicillin 500mg,Antibiotic,99,119,108,90,110
+2025-01-12,Northern,SKU003,Amoxicillin 500mg,Antibiotic,94,119,106,84,104
+2025-01-19,Northern,SKU003,Amoxicillin 500mg,Antibiotic,97,119,107,87,107
+2025-01-26,Northern,SKU003,Amoxicillin 500mg,Antibiotic,99,119,108,89,110
+2025-01-05,Sabaragamuwa,SKU003,Amoxicillin 500mg,Antibiotic,97,100,98,87,107
+2025-01-12,Sabaragamuwa,SKU003,Amoxicillin 500mg,Antibiotic,96,100,98,86,106
+2025-01-19,Sabaragamuwa,SKU003,Amoxicillin 500mg,Antibiotic,96,100,97,85,105
+2025-01-26,Sabaragamuwa,SKU003,Amoxicillin 500mg,Antibiotic,98,100,99,88,108
+2025-01-05,Southern,SKU003,Amoxicillin 500mg,Antibiotic,225,195,212,205,246
+2025-01-12,Southern,SKU003,Amoxicillin 500mg,Antibiotic,231,195,215,209,254
+2025-01-19,Southern,SKU003,Amoxicillin 500mg,Antibiotic,238,195,219,218,262
+2025-01-26,Southern,SKU003,Amoxicillin 500mg,Antibiotic,242,195,221,219,264
+2025-01-05,Uva,SKU003,Amoxicillin 500mg,Antibiotic,84,80,82,79,90
+2025-01-12,Uva,SKU003,Amoxicillin 500mg,Antibiotic,89,80,85,84,95
+2025-01-19,Uva,SKU003,Amoxicillin 500mg,Antibiotic,88,80,84,82,94
+2025-01-26,Uva,SKU003,Amoxicillin 500mg,Antibiotic,84,80,82,79,90
+2025-01-05,Western,SKU003,Amoxicillin 500mg,Antibiotic,737,783,758,644,835
+2025-01-12,Western,SKU003,Amoxicillin 500mg,Antibiotic,755,783,768,663,858
+2025-01-19,Western,SKU003,Amoxicillin 500mg,Antibiotic,801,783,793,713,904
+2025-01-26,Western,SKU003,Amoxicillin 500mg,Antibiotic,842,783,816,742,939
+2025-01-05,Central,SKU004,Azithromycin 250mg,Antibiotic,135,140,137,116,155
+2025-01-12,Central,SKU004,Azithromycin 250mg,Antibiotic,164,140,153,146,181
+2025-01-19,Central,SKU004,Azithromycin 250mg,Antibiotic,185,140,164,166,202
+2025-01-26,Central,SKU004,Azithromycin 250mg,Antibiotic,182,140,163,163,199
+2025-01-05,Eastern,SKU004,Azithromycin 250mg,Antibiotic,94,82,89,86,103
+2025-01-12,Eastern,SKU004,Azithromycin 250mg,Antibiotic,103,82,94,95,111
+2025-01-19,Eastern,SKU004,Azithromycin 250mg,Antibiotic,113,82,99,104,121
+2025-01-26,Eastern,SKU004,Azithromycin 250mg,Antibiotic,120,82,103,111,129
+2025-01-05,North Central,SKU004,Azithromycin 250mg,Antibiotic,69,77,73,61,78
+2025-01-12,North Central,SKU004,Azithromycin 250mg,Antibiotic,74,77,75,66,82
+2025-01-19,North Central,SKU004,Azithromycin 250mg,Antibiotic,77,77,77,68,85
+2025-01-26,North Central,SKU004,Azithromycin 250mg,Antibiotic,76,77,76,68,85
+2025-01-05,North Western,SKU004,Azithromycin 250mg,Antibiotic,166,166,166,151,182
+2025-01-12,North Western,SKU004,Azithromycin 250mg,Antibiotic,179,166,173,163,194
+2025-01-19,North Western,SKU004,Azithromycin 250mg,Antibiotic,192,166,180,178,208
+2025-01-26,North Western,SKU004,Azithromycin 250mg,Antibiotic,201,166,185,186,216
+2025-01-05,Northern,SKU004,Azithromycin 250mg,Antibiotic,110,87,100,104,116
+2025-01-12,Northern,SKU004,Azithromycin 250mg,Antibiotic,117,87,104,111,123
+2025-01-19,Northern,SKU004,Azithromycin 250mg,Antibiotic,123,87,107,116,130
+2025-01-26,Northern,SKU004,Azithromycin 250mg,Antibiotic,125,87,108,118,131
+2025-01-05,Sabaragamuwa,SKU004,Azithromycin 250mg,Antibiotic,75,77,76,67,83
+2025-01-12,Sabaragamuwa,SKU004,Azithromycin 250mg,Antibiotic,90,77,84,82,98
+2025-01-19,Sabaragamuwa,SKU004,Azithromycin 250mg,Antibiotic,95,77,87,87,103
+2025-01-26,Sabaragamuwa,SKU004,Azithromycin 250mg,Antibiotic,87,77,82,78,95
+2025-01-05,Southern,SKU004,Azithromycin 250mg,Antibiotic,176,143,161,160,192
+2025-01-12,Southern,SKU004,Azithromycin 250mg,Antibiotic,195,143,172,178,212
+2025-01-19,Southern,SKU004,Azithromycin 250mg,Antibiotic,197,143,173,181,215
+2025-01-26,Southern,SKU004,Azithromycin 250mg,Antibiotic,185,143,166,169,201
+2025-01-05,Uva,SKU004,Azithromycin 250mg,Antibiotic,66,58,63,61,71
+2025-01-12,Uva,SKU004,Azithromycin 250mg,Antibiotic,71,58,65,66,76
+2025-01-19,Uva,SKU004,Azithromycin 250mg,Antibiotic,72,58,66,67,77
+2025-01-26,Uva,SKU004,Azithromycin 250mg,Antibiotic,70,58,65,65,75
+2025-01-05,Western,SKU004,Azithromycin 250mg,Antibiotic,569,588,577,505,633
+2025-01-12,Western,SKU004,Azithromycin 250mg,Antibiotic,593,588,591,527,660
+2025-01-19,Western,SKU004,Azithromycin 250mg,Antibiotic,612,588,601,542,679
+2025-01-26,Western,SKU004,Azithromycin 250mg,Antibiotic,609,588,600,545,671
+2025-01-05,Central,SKU005,Dengue Rapid Test Kit,Diagnostics,84,117,99,71,96
+2025-01-12,Central,SKU005,Dengue Rapid Test Kit,Diagnostics,89,117,102,76,103
+2025-01-19,Central,SKU005,Dengue Rapid Test Kit,Diagnostics,93,117,104,80,106
+2025-01-26,Central,SKU005,Dengue Rapid Test Kit,Diagnostics,93,117,104,80,107
+2025-01-05,Eastern,SKU005,Dengue Rapid Test Kit,Diagnostics,44,71,56,39,51
+2025-01-12,Eastern,SKU005,Dengue Rapid Test Kit,Diagnostics,43,71,55,37,49
+2025-01-19,Eastern,SKU005,Dengue Rapid Test Kit,Diagnostics,45,71,57,39,50
+2025-01-26,Eastern,SKU005,Dengue Rapid Test Kit,Diagnostics,48,71,58,42,54
+2025-01-05,North Central,SKU005,Dengue Rapid Test Kit,Diagnostics,41,60,50,34,48
+2025-01-12,North Central,SKU005,Dengue Rapid Test Kit,Diagnostics,38,60,48,31,45
+2025-01-19,North Central,SKU005,Dengue Rapid Test Kit,Diagnostics,37,60,47,30,44
+2025-01-26,North Central,SKU005,Dengue Rapid Test Kit,Diagnostics,37,60,47,30,44
+2025-01-05,North Western,SKU005,Dengue Rapid Test Kit,Diagnostics,80,138,106,62,98
+2025-01-12,North Western,SKU005,Dengue Rapid Test Kit,Diagnostics,91,138,112,74,107
+2025-01-19,North Western,SKU005,Dengue Rapid Test Kit,Diagnostics,97,138,115,79,114
+2025-01-26,North Western,SKU005,Dengue Rapid Test Kit,Diagnostics,97,138,115,79,115
+2025-01-05,Northern,SKU005,Dengue Rapid Test Kit,Diagnostics,39,69,53,29,49
+2025-01-12,Northern,SKU005,Dengue Rapid Test Kit,Diagnostics,39,69,53,30,49
+2025-01-19,Northern,SKU005,Dengue Rapid Test Kit,Diagnostics,44,69,55,35,53
+2025-01-26,Northern,SKU005,Dengue Rapid Test Kit,Diagnostics,47,69,57,38,56
+2025-01-05,Sabaragamuwa,SKU005,Dengue Rapid Test Kit,Diagnostics,43,58,50,38,47
+2025-01-12,Sabaragamuwa,SKU005,Dengue Rapid Test Kit,Diagnostics,42,58,49,37,47
+2025-01-19,Sabaragamuwa,SKU005,Dengue Rapid Test Kit,Diagnostics,39,58,48,34,44
+2025-01-26,Sabaragamuwa,SKU005,Dengue Rapid Test Kit,Diagnostics,36,58,46,32,41
+2025-01-05,Southern,SKU005,Dengue Rapid Test Kit,Diagnostics,63,114,86,54,73
+2025-01-12,Southern,SKU005,Dengue Rapid Test Kit,Diagnostics,59,114,83,50,68
+2025-01-19,Southern,SKU005,Dengue Rapid Test Kit,Diagnostics,63,114,86,53,72
+2025-01-26,Southern,SKU005,Dengue Rapid Test Kit,Diagnostics,70,114,90,61,81
+2025-01-05,Uva,SKU005,Dengue Rapid Test Kit,Diagnostics,31,50,40,28,35
+2025-01-12,Uva,SKU005,Dengue Rapid Test Kit,Diagnostics,30,50,39,26,34
+2025-01-19,Uva,SKU005,Dengue Rapid Test Kit,Diagnostics,31,50,39,27,35
+2025-01-26,Uva,SKU005,Dengue Rapid Test Kit,Diagnostics,33,50,41,29,37
+2025-01-05,Western,SKU005,Dengue Rapid Test Kit,Diagnostics,347,406,373,293,400
+2025-01-12,Western,SKU005,Dengue Rapid Test Kit,Diagnostics,339,406,369,287,391
+2025-01-19,Western,SKU005,Dengue Rapid Test Kit,Diagnostics,330,406,364,279,385
+2025-01-26,Western,SKU005,Dengue Rapid Test Kit,Diagnostics,333,406,366,282,391
+2025-01-05,Central,SKU006,ORS Sachets,Rehydration,426,483,452,367,478
+2025-01-12,Central,SKU006,ORS Sachets,Rehydration,452,483,466,395,504
+2025-01-19,Central,SKU006,ORS Sachets,Rehydration,467,483,474,415,523
+2025-01-26,Central,SKU006,ORS Sachets,Rehydration,453,483,466,399,508
+2025-01-05,Eastern,SKU006,ORS Sachets,Rehydration,140,227,180,117,166
+2025-01-12,Eastern,SKU006,ORS Sachets,Rehydration,142,227,181,119,166
+2025-01-19,Eastern,SKU006,ORS Sachets,Rehydration,152,227,186,129,177
+2025-01-26,Eastern,SKU006,ORS Sachets,Rehydration,157,227,189,132,182
+2025-01-05,North Central,SKU006,ORS Sachets,Rehydration,180,232,203,160,203
+2025-01-12,North Central,SKU006,ORS Sachets,Rehydration,200,232,215,176,223
+2025-01-19,North Central,SKU006,ORS Sachets,Rehydration,211,232,221,189,235
+2025-01-26,North Central,SKU006,ORS Sachets,Rehydration,210,232,220,186,232
+2025-01-05,North Western,SKU006,ORS Sachets,Rehydration,418,524,466,359,475
+2025-01-12,North Western,SKU006,ORS Sachets,Rehydration,377,524,443,314,440
+2025-01-19,North Western,SKU006,ORS Sachets,Rehydration,375,524,442,314,429
+2025-01-26,North Western,SKU006,ORS Sachets,Rehydration,413,524,463,349,475
+2025-01-05,Northern,SKU006,ORS Sachets,Rehydration,252,249,251,226,276
+2025-01-12,Northern,SKU006,ORS Sachets,Rehydration,267,249,259,242,291
+2025-01-19,Northern,SKU006,ORS Sachets,Rehydration,265,249,258,240,289
+2025-01-26,Northern,SKU006,ORS Sachets,Rehydration,256,249,252,231,278
+2025-01-05,Sabaragamuwa,SKU006,ORS Sachets,Rehydration,174,189,181,152,195
+2025-01-12,Sabaragamuwa,SKU006,ORS Sachets,Rehydration,162,189,174,140,183
+2025-01-19,Sabaragamuwa,SKU006,ORS Sachets,Rehydration,166,189,176,143,188
+2025-01-26,Sabaragamuwa,SKU006,ORS Sachets,Rehydration,178,189,183,156,200
+2025-01-05,Southern,SKU006,ORS Sachets,Rehydration,326,386,353,275,373
+2025-01-12,Southern,SKU006,ORS Sachets,Rehydration,351,386,367,301,404
+2025-01-19,Southern,SKU006,ORS Sachets,Rehydration,367,386,375,320,415
+2025-01-26,Southern,SKU006,ORS Sachets,Rehydration,365,386,374,317,409
+2025-01-05,Uva,SKU006,ORS Sachets,Rehydration,135,156,144,119,151
+2025-01-12,Uva,SKU006,ORS Sachets,Rehydration,157,156,157,140,172
+2025-01-19,Uva,SKU006,ORS Sachets,Rehydration,181,156,170,165,197
+2025-01-26,Uva,SKU006,ORS Sachets,Rehydration,194,156,177,178,209
+2025-01-05,Western,SKU006,ORS Sachets,Rehydration,1793,1477,1651,1576,2007
+2025-01-12,Western,SKU006,ORS Sachets,Rehydration,2026,1477,1779,1809,2239
+2025-01-19,Western,SKU006,ORS Sachets,Rehydration,1996,1477,1763,1798,2217
+2025-01-26,Western,SKU006,ORS Sachets,Rehydration,1811,1477,1661,1578,2034
+2025-01-05,Central,SKU007,Paediatric Paracetamol Syrup,Paediatric,234,254,243,191,273
+2025-01-12,Central,SKU007,Paediatric Paracetamol Syrup,Paediatric,236,254,244,193,276
+2025-01-19,Central,SKU007,Paediatric Paracetamol Syrup,Paediatric,263,254,259,223,304
+2025-01-26,Central,SKU007,Paediatric Paracetamol Syrup,Paediatric,285,254,271,242,326
+2025-01-05,Eastern,SKU007,Paediatric Paracetamol Syrup,Paediatric,163,153,158,148,178
+2025-01-12,Eastern,SKU007,Paediatric Paracetamol Syrup,Paediatric,160,153,157,144,175
+2025-01-19,Eastern,SKU007,Paediatric Paracetamol Syrup,Paediatric,151,153,152,136,167
+2025-01-26,Eastern,SKU007,Paediatric Paracetamol Syrup,Paediatric,145,153,149,129,161
+2025-01-05,North Central,SKU007,Paediatric Paracetamol Syrup,Paediatric,155,142,149,140,169
+2025-01-12,North Central,SKU007,Paediatric Paracetamol Syrup,Paediatric,168,142,156,155,181
+2025-01-19,North Central,SKU007,Paediatric Paracetamol Syrup,Paediatric,178,142,161,164,191
+2025-01-26,North Central,SKU007,Paediatric Paracetamol Syrup,Paediatric,174,142,159,159,189
+2025-01-05,North Western,SKU007,Paediatric Paracetamol Syrup,Paediatric,306,306,306,273,338
+2025-01-12,North Western,SKU007,Paediatric Paracetamol Syrup,Paediatric,321,306,314,292,353
+2025-01-19,North Western,SKU007,Paediatric Paracetamol Syrup,Paediatric,328,306,318,296,359
+2025-01-26,North Western,SKU007,Paediatric Paracetamol Syrup,Paediatric,328,306,318,296,359
+2025-01-05,Northern,SKU007,Paediatric Paracetamol Syrup,Paediatric,156,146,151,137,175
+2025-01-12,Northern,SKU007,Paediatric Paracetamol Syrup,Paediatric,164,146,156,144,184
+2025-01-19,Northern,SKU007,Paediatric Paracetamol Syrup,Paediatric,166,146,157,146,184
+2025-01-26,Northern,SKU007,Paediatric Paracetamol Syrup,Paediatric,161,146,154,143,180
+2025-01-05,Sabaragamuwa,SKU007,Paediatric Paracetamol Syrup,Paediatric,124,136,129,108,138
+2025-01-12,Sabaragamuwa,SKU007,Paediatric Paracetamol Syrup,Paediatric,127,136,131,111,143
+2025-01-19,Sabaragamuwa,SKU007,Paediatric Paracetamol Syrup,Paediatric,131,136,133,115,146
+2025-01-26,Sabaragamuwa,SKU007,Paediatric Paracetamol Syrup,Paediatric,133,136,134,118,149
+2025-01-05,Southern,SKU007,Paediatric Paracetamol Syrup,Paediatric,234,249,241,200,264
+2025-01-12,Southern,SKU007,Paediatric Paracetamol Syrup,Paediatric,259,249,254,229,288
+2025-01-19,Southern,SKU007,Paediatric Paracetamol Syrup,Paediatric,271,249,261,240,304
+2025-01-26,Southern,SKU007,Paediatric Paracetamol Syrup,Paediatric,264,249,257,232,295
+2025-01-05,Uva,SKU007,Paediatric Paracetamol Syrup,Paediatric,80,97,87,71,88
+2025-01-12,Uva,SKU007,Paediatric Paracetamol Syrup,Paediatric,85,97,90,77,93
+2025-01-19,Uva,SKU007,Paediatric Paracetamol Syrup,Paediatric,100,97,99,92,109
+2025-01-26,Uva,SKU007,Paediatric Paracetamol Syrup,Paediatric,111,97,104,102,119
+2025-01-05,Western,SKU007,Paediatric Paracetamol Syrup,Paediatric,1027,1016,1022,909,1139
+2025-01-12,Western,SKU007,Paediatric Paracetamol Syrup,Paediatric,1031,1016,1024,913,1145
+2025-01-19,Western,SKU007,Paediatric Paracetamol Syrup,Paediatric,1016,1016,1016,901,1124
+2025-01-26,Western,SKU007,Paediatric Paracetamol Syrup,Paediatric,976,1016,994,867,1089
+2025-01-05,Central,SKU008,Children's Multivitamin,Paediatric,212,170,193,189,235
+2025-01-12,Central,SKU008,Children's Multivitamin,Paediatric,227,170,201,204,249
+2025-01-19,Central,SKU008,Children's Multivitamin,Paediatric,219,170,197,196,241
+2025-01-26,Central,SKU008,Children's Multivitamin,Paediatric,201,170,187,178,223
+2025-01-05,Eastern,SKU008,Children's Multivitamin,Paediatric,70,92,80,57,82
+2025-01-12,Eastern,SKU008,Children's Multivitamin,Paediatric,59,92,74,46,73
+2025-01-19,Eastern,SKU008,Children's Multivitamin,Paediatric,51,92,69,39,64
+2025-01-26,Eastern,SKU008,Children's Multivitamin,Paediatric,48,92,68,35,62
+2025-01-05,North Central,SKU008,Children's Multivitamin,Paediatric,74,85,79,66,82
+2025-01-12,North Central,SKU008,Children's Multivitamin,Paediatric,67,85,75,60,76
+2025-01-19,North Central,SKU008,Children's Multivitamin,Paediatric,67,85,75,58,74
+2025-01-26,North Central,SKU008,Children's Multivitamin,Paediatric,71,85,78,63,79
+2025-01-05,North Western,SKU008,Children's Multivitamin,Paediatric,192,196,194,166,217
+2025-01-12,North Western,SKU008,Children's Multivitamin,Paediatric,171,196,182,145,196
+2025-01-19,North Western,SKU008,Children's Multivitamin,Paediatric,163,196,178,138,187
+2025-01-26,North Western,SKU008,Children's Multivitamin,Paediatric,174,196,184,148,198
+2025-01-05,Northern,SKU008,Children's Multivitamin,Paediatric,80,94,86,66,94
+2025-01-12,Northern,SKU008,Children's Multivitamin,Paediatric,78,94,85,63,92
+2025-01-19,Northern,SKU008,Children's Multivitamin,Paediatric,80,94,86,66,94
+2025-01-26,Northern,SKU008,Children's Multivitamin,Paediatric,85,94,89,71,99
+2025-01-05,Sabaragamuwa,SKU008,Children's Multivitamin,Paediatric,56,80,67,48,64
+2025-01-12,Sabaragamuwa,SKU008,Children's Multivitamin,Paediatric,61,80,69,52,68
+2025-01-19,Sabaragamuwa,SKU008,Children's Multivitamin,Paediatric,73,80,76,65,81
+2025-01-26,Sabaragamuwa,SKU008,Children's Multivitamin,Paediatric,83,80,82,75,91
+2025-01-05,Southern,SKU008,Children's Multivitamin,Paediatric,165,153,160,147,184
+2025-01-12,Southern,SKU008,Children's Multivitamin,Paediatric,165,153,160,145,184
+2025-01-19,Southern,SKU008,Children's Multivitamin,Paediatric,170,153,163,151,190
+2025-01-26,Southern,SKU008,Children's Multivitamin,Paediatric,184,153,170,165,203
+2025-01-05,Uva,SKU008,Children's Multivitamin,Paediatric,58,71,64,49,67
+2025-01-12,Uva,SKU008,Children's Multivitamin,Paediatric,49,71,59,41,58
+2025-01-19,Uva,SKU008,Children's Multivitamin,Paediatric,47,71,58,39,56
+2025-01-26,Uva,SKU008,Children's Multivitamin,Paediatric,54,71,62,45,63
+2025-01-05,Western,SKU008,Children's Multivitamin,Paediatric,446,641,534,389,502
+2025-01-12,Western,SKU008,Children's Multivitamin,Paediatric,345,641,478,289,403
+2025-01-19,Western,SKU008,Children's Multivitamin,Paediatric,346,641,478,288,402
+2025-01-26,Western,SKU008,Children's Multivitamin,Paediatric,403,641,510,350,460
+2025-01-05,Central,SKU009,Salbutamol Inhaler,Respiratory,106,101,104,94,119
+2025-01-12,Central,SKU009,Salbutamol Inhaler,Respiratory,123,101,113,110,134
+2025-01-19,Central,SKU009,Salbutamol Inhaler,Respiratory,135,101,120,124,147
+2025-01-26,Central,SKU009,Salbutamol Inhaler,Respiratory,136,101,120,124,148
+2025-01-05,Eastern,SKU009,Salbutamol Inhaler,Respiratory,66,64,65,60,72
+2025-01-12,Eastern,SKU009,Salbutamol Inhaler,Respiratory,70,64,67,64,76
+2025-01-19,Eastern,SKU009,Salbutamol Inhaler,Respiratory,70,64,68,64,76
+2025-01-26,Eastern,SKU009,Salbutamol Inhaler,Respiratory,64,64,64,58,70
+2025-01-05,North Central,SKU009,Salbutamol Inhaler,Respiratory,48,55,51,43,54
+2025-01-12,North Central,SKU009,Salbutamol Inhaler,Respiratory,48,55,51,43,53
+2025-01-19,North Central,SKU009,Salbutamol Inhaler,Respiratory,49,55,52,44,54
+2025-01-26,North Central,SKU009,Salbutamol Inhaler,Respiratory,50,55,52,44,55
+2025-01-05,North Western,SKU009,Salbutamol Inhaler,Respiratory,134,128,132,121,148
+2025-01-12,North Western,SKU009,Salbutamol Inhaler,Respiratory,149,128,140,135,162
+2025-01-19,North Western,SKU009,Salbutamol Inhaler,Respiratory,162,128,147,149,175
+2025-01-26,North Western,SKU009,Salbutamol Inhaler,Respiratory,164,128,148,151,178
+2025-01-05,Northern,SKU009,Salbutamol Inhaler,Respiratory,74,69,72,67,80
+2025-01-12,Northern,SKU009,Salbutamol Inhaler,Respiratory,76,69,73,68,83
+2025-01-19,Northern,SKU009,Salbutamol Inhaler,Respiratory,75,69,72,68,82
+2025-01-26,Northern,SKU009,Salbutamol Inhaler,Respiratory,73,69,71,66,80
+2025-01-05,Sabaragamuwa,SKU009,Salbutamol Inhaler,Respiratory,60,58,59,55,65
+2025-01-12,Sabaragamuwa,SKU009,Salbutamol Inhaler,Respiratory,56,58,57,50,61
+2025-01-19,Sabaragamuwa,SKU009,Salbutamol Inhaler,Respiratory,53,58,55,48,59
+2025-01-26,Sabaragamuwa,SKU009,Salbutamol Inhaler,Respiratory,53,58,55,47,59
+2025-01-05,Southern,SKU009,Salbutamol Inhaler,Respiratory,139,107,125,129,149
+2025-01-12,Southern,SKU009,Salbutamol Inhaler,Respiratory,146,107,128,135,156
+2025-01-19,Southern,SKU009,Salbutamol Inhaler,Respiratory,144,107,127,133,153
+2025-01-26,Southern,SKU009,Salbutamol Inhaler,Respiratory,136,107,123,127,146
+2025-01-05,Uva,SKU009,Salbutamol Inhaler,Respiratory,36,42,39,32,40
+2025-01-12,Uva,SKU009,Salbutamol Inhaler,Respiratory,31,42,36,28,35
+2025-01-19,Uva,SKU009,Salbutamol Inhaler,Respiratory,27,42,34,23,31
+2025-01-26,Uva,SKU009,Salbutamol Inhaler,Respiratory,25,42,33,21,29
+2025-01-05,Western,SKU009,Salbutamol Inhaler,Respiratory,393,436,413,350,436
+2025-01-12,Western,SKU009,Salbutamol Inhaler,Respiratory,440,436,438,397,485
+2025-01-19,Western,SKU009,Salbutamol Inhaler,Respiratory,488,436,465,447,530
+2025-01-26,Western,SKU009,Salbutamol Inhaler,Respiratory,504,436,473,461,547
+2025-01-05,Central,SKU010,Cetirizine 10mg,Antihistamine,247,234,241,225,272
+2025-01-12,Central,SKU010,Cetirizine 10mg,Antihistamine,265,234,251,242,290
+2025-01-19,Central,SKU010,Cetirizine 10mg,Antihistamine,275,234,257,252,297
+2025-01-26,Central,SKU010,Cetirizine 10mg,Antihistamine,272,234,255,248,296
+2025-01-05,Eastern,SKU010,Cetirizine 10mg,Antihistamine,142,128,135,130,154
+2025-01-12,Eastern,SKU010,Cetirizine 10mg,Antihistamine,157,128,144,146,169
+2025-01-19,Eastern,SKU010,Cetirizine 10mg,Antihistamine,171,128,151,160,183
+2025-01-26,Eastern,SKU010,Cetirizine 10mg,Antihistamine,180,128,156,168,191
+2025-01-05,North Central,SKU010,Cetirizine 10mg,Antihistamine,107,90,99,97,119
+2025-01-12,North Central,SKU010,Cetirizine 10mg,Antihistamine,102,90,96,90,113
+2025-01-19,North Central,SKU010,Cetirizine 10mg,Antihistamine,96,90,93,85,107
+2025-01-26,North Central,SKU010,Cetirizine 10mg,Antihistamine,97,90,94,87,109
+2025-01-05,North Western,SKU010,Cetirizine 10mg,Antihistamine,287,250,270,265,310
+2025-01-12,North Western,SKU010,Cetirizine 10mg,Antihistamine,322,250,289,298,341
+2025-01-19,North Western,SKU010,Cetirizine 10mg,Antihistamine,346,250,303,323,368
+2025-01-26,North Western,SKU010,Cetirizine 10mg,Antihistamine,354,250,307,332,376
+2025-01-05,Northern,SKU010,Cetirizine 10mg,Antihistamine,107,120,113,92,120
+2025-01-12,Northern,SKU010,Cetirizine 10mg,Antihistamine,101,120,110,87,116
+2025-01-19,Northern,SKU010,Cetirizine 10mg,Antihistamine,103,120,110,89,117
+2025-01-26,Northern,SKU010,Cetirizine 10mg,Antihistamine,104,120,111,91,119
+2025-01-05,Sabaragamuwa,SKU010,Cetirizine 10mg,Antihistamine,104,96,101,92,116
+2025-01-12,Sabaragamuwa,SKU010,Cetirizine 10mg,Antihistamine,119,96,109,108,131
+2025-01-19,Sabaragamuwa,SKU010,Cetirizine 10mg,Antihistamine,123,96,111,111,134
+2025-01-26,Sabaragamuwa,SKU010,Cetirizine 10mg,Antihistamine,116,96,107,104,128
+2025-01-05,Southern,SKU010,Cetirizine 10mg,Antihistamine,205,196,201,186,223
+2025-01-12,Southern,SKU010,Cetirizine 10mg,Antihistamine,210,196,204,191,231
+2025-01-19,Southern,SKU010,Cetirizine 10mg,Antihistamine,210,196,204,192,230
+2025-01-26,Southern,SKU010,Cetirizine 10mg,Antihistamine,207,196,202,188,225
+2025-01-05,Uva,SKU010,Cetirizine 10mg,Antihistamine,70,78,74,60,80
+2025-01-12,Uva,SKU010,Cetirizine 10mg,Antihistamine,77,78,77,67,87
+2025-01-19,Uva,SKU010,Cetirizine 10mg,Antihistamine,85,78,82,75,95
+2025-01-26,Uva,SKU010,Cetirizine 10mg,Antihistamine,88,78,84,78,98
+2025-01-05,Western,SKU010,Cetirizine 10mg,Antihistamine,797,774,787,687,916
+2025-01-12,Western,SKU010,Cetirizine 10mg,Antihistamine,788,774,781,672,896
+2025-01-19,Western,SKU010,Cetirizine 10mg,Antihistamine,776,774,775,667,882
+2025-01-26,Western,SKU010,Cetirizine 10mg,Antihistamine,765,774,769,647,869
+2025-01-05,Central,SKU011,Metformin 500mg,Diabetes,258,287,271,232,286
+2025-01-12,Central,SKU011,Metformin 500mg,Diabetes,235,287,258,210,265
+2025-01-19,Central,SKU011,Metformin 500mg,Diabetes,231,287,256,204,258
+2025-01-26,Central,SKU011,Metformin 500mg,Diabetes,245,287,264,217,272
+2025-01-05,Eastern,SKU011,Metformin 500mg,Diabetes,147,179,161,128,165
+2025-01-12,Eastern,SKU011,Metformin 500mg,Diabetes,131,179,153,113,150
+2025-01-19,Eastern,SKU011,Metformin 500mg,Diabetes,132,179,153,113,150
+2025-01-26,Eastern,SKU011,Metformin 500mg,Diabetes,151,179,164,132,170
+2025-01-05,North Central,SKU011,Metformin 500mg,Diabetes,150,136,144,135,165
+2025-01-12,North Central,SKU011,Metformin 500mg,Diabetes,159,136,149,145,173
+2025-01-19,North Central,SKU011,Metformin 500mg,Diabetes,154,136,146,139,168
+2025-01-26,North Central,SKU011,Metformin 500mg,Diabetes,145,136,141,129,159
+2025-01-05,North Western,SKU011,Metformin 500mg,Diabetes,330,336,333,295,366
+2025-01-12,North Western,SKU011,Metformin 500mg,Diabetes,324,336,329,288,360
+2025-01-19,North Western,SKU011,Metformin 500mg,Diabetes,304,336,318,268,339
+2025-01-26,North Western,SKU011,Metformin 500mg,Diabetes,286,336,308,249,321
+2025-01-05,Northern,SKU011,Metformin 500mg,Diabetes,181,181,181,163,199
+2025-01-12,Northern,SKU011,Metformin 500mg,Diabetes,179,181,180,159,198
+2025-01-19,Northern,SKU011,Metformin 500mg,Diabetes,175,181,178,159,193
+2025-01-26,Northern,SKU011,Metformin 500mg,Diabetes,172,181,176,154,192
+2025-01-05,Sabaragamuwa,SKU011,Metformin 500mg,Diabetes,142,152,146,122,162
+2025-01-12,Sabaragamuwa,SKU011,Metformin 500mg,Diabetes,150,152,151,130,169
+2025-01-19,Sabaragamuwa,SKU011,Metformin 500mg,Diabetes,164,152,158,145,182
+2025-01-26,Sabaragamuwa,SKU011,Metformin 500mg,Diabetes,174,152,164,154,194
+2025-01-05,Southern,SKU011,Metformin 500mg,Diabetes,319,305,313,286,347
+2025-01-12,Southern,SKU011,Metformin 500mg,Diabetes,321,305,314,293,351
+2025-01-19,Southern,SKU011,Metformin 500mg,Diabetes,311,305,309,281,340
+2025-01-26,Southern,SKU011,Metformin 500mg,Diabetes,306,305,306,275,335
+2025-01-05,Uva,SKU011,Metformin 500mg,Diabetes,97,119,107,89,106
+2025-01-12,Uva,SKU011,Metformin 500mg,Diabetes,96,119,106,87,104
+2025-01-19,Uva,SKU011,Metformin 500mg,Diabetes,99,119,108,90,107
+2025-01-26,Uva,SKU011,Metformin 500mg,Diabetes,100,119,108,91,107
+2025-01-05,Western,SKU011,Metformin 500mg,Diabetes,1012,1101,1052,880,1142
+2025-01-12,Western,SKU011,Metformin 500mg,Diabetes,1008,1101,1050,862,1141
+2025-01-19,Western,SKU011,Metformin 500mg,Diabetes,1030,1101,1062,897,1173
+2025-01-26,Western,SKU011,Metformin 500mg,Diabetes,1079,1101,1089,947,1200
+2025-01-05,Central,SKU012,Amlodipine 5mg,Cardiovascular,278,313,293,253,301
+2025-01-12,Central,SKU012,Amlodipine 5mg,Cardiovascular,268,313,288,242,291
+2025-01-19,Central,SKU012,Amlodipine 5mg,Cardiovascular,252,313,279,227,277
+2025-01-26,Central,SKU012,Amlodipine 5mg,Cardiovascular,244,313,275,218,268
+2025-01-05,Eastern,SKU012,Amlodipine 5mg,Cardiovascular,162,174,168,147,178
+2025-01-12,Eastern,SKU012,Amlodipine 5mg,Cardiovascular,146,174,159,131,161
+2025-01-19,Eastern,SKU012,Amlodipine 5mg,Cardiovascular,141,174,156,125,157
+2025-01-26,Eastern,SKU012,Amlodipine 5mg,Cardiovascular,146,174,159,128,161
+2025-01-05,North Central,SKU012,Amlodipine 5mg,Cardiovascular,93,116,103,79,108
+2025-01-12,North Central,SKU012,Amlodipine 5mg,Cardiovascular,104,116,109,90,119
+2025-01-19,North Central,SKU012,Amlodipine 5mg,Cardiovascular,116,116,116,103,131
+2025-01-26,North Central,SKU012,Amlodipine 5mg,Cardiovascular,121,116,118,106,135
+2025-01-05,North Western,SKU012,Amlodipine 5mg,Cardiovascular,186,309,241,153,223
+2025-01-12,North Western,SKU012,Amlodipine 5mg,Cardiovascular,184,309,241,148,221
+2025-01-19,North Western,SKU012,Amlodipine 5mg,Cardiovascular,208,309,254,175,246
+2025-01-26,North Western,SKU012,Amlodipine 5mg,Cardiovascular,212,309,255,175,246
+2025-01-05,Northern,SKU012,Amlodipine 5mg,Cardiovascular,186,151,170,170,202
+2025-01-12,Northern,SKU012,Amlodipine 5mg,Cardiovascular,203,151,180,189,219
+2025-01-19,Northern,SKU012,Amlodipine 5mg,Cardiovascular,200,151,178,185,216
+2025-01-26,Northern,SKU012,Amlodipine 5mg,Cardiovascular,186,151,170,170,201
+2025-01-05,Sabaragamuwa,SKU012,Amlodipine 5mg,Cardiovascular,138,124,132,125,150
+2025-01-12,Sabaragamuwa,SKU012,Amlodipine 5mg,Cardiovascular,129,124,127,118,142
+2025-01-19,Sabaragamuwa,SKU012,Amlodipine 5mg,Cardiovascular,115,124,119,103,126
+2025-01-26,Sabaragamuwa,SKU012,Amlodipine 5mg,Cardiovascular,110,124,117,99,123
+2025-01-05,Southern,SKU012,Amlodipine 5mg,Cardiovascular,278,247,264,245,309
+2025-01-12,Southern,SKU012,Amlodipine 5mg,Cardiovascular,293,247,273,260,325
+2025-01-19,Southern,SKU012,Amlodipine 5mg,Cardiovascular,281,247,266,249,310
+2025-01-26,Southern,SKU012,Amlodipine 5mg,Cardiovascular,258,247,253,226,288
+2025-01-05,Uva,SKU012,Amlodipine 5mg,Cardiovascular,79,85,82,69,88
+2025-01-12,Uva,SKU012,Amlodipine 5mg,Cardiovascular,78,85,81,68,87
+2025-01-19,Uva,SKU012,Amlodipine 5mg,Cardiovascular,80,85,83,71,90
+2025-01-26,Uva,SKU012,Amlodipine 5mg,Cardiovascular,81,85,83,72,90
+2025-01-05,Western,SKU012,Amlodipine 5mg,Cardiovascular,1021,971,998,902,1141
+2025-01-12,Western,SKU012,Amlodipine 5mg,Cardiovascular,1080,971,1031,957,1194
+2025-01-19,Western,SKU012,Amlodipine 5mg,Cardiovascular,1114,971,1050,994,1239
+2025-01-26,Western,SKU012,Amlodipine 5mg,Cardiovascular,1128,971,1057,1003,1246
+2025-01-05,Central,SKU013,Vitamin C 500mg,Supplement,293,263,280,259,329
+2025-01-12,Central,SKU013,Vitamin C 500mg,Supplement,292,263,279,257,325
+2025-01-19,Central,SKU013,Vitamin C 500mg,Supplement,274,263,269,244,305
+2025-01-26,Central,SKU013,Vitamin C 500mg,Supplement,255,263,259,223,289
+2025-01-05,Eastern,SKU013,Vitamin C 500mg,Supplement,158,153,156,141,175
+2025-01-12,Eastern,SKU013,Vitamin C 500mg,Supplement,172,153,163,155,189
+2025-01-19,Eastern,SKU013,Vitamin C 500mg,Supplement,174,153,164,157,190
+2025-01-26,Eastern,SKU013,Vitamin C 500mg,Supplement,165,153,159,148,182
+2025-01-05,North Central,SKU013,Vitamin C 500mg,Supplement,128,129,128,113,142
+2025-01-12,North Central,SKU013,Vitamin C 500mg,Supplement,129,129,129,114,146
+2025-01-19,North Central,SKU013,Vitamin C 500mg,Supplement,130,129,129,115,145
+2025-01-26,North Central,SKU013,Vitamin C 500mg,Supplement,126,129,127,112,142
+2025-01-05,North Western,SKU013,Vitamin C 500mg,Supplement,306,313,309,269,343
+2025-01-12,North Western,SKU013,Vitamin C 500mg,Supplement,309,313,311,273,350
+2025-01-19,North Western,SKU013,Vitamin C 500mg,Supplement,315,313,314,279,356
+2025-01-26,North Western,SKU013,Vitamin C 500mg,Supplement,328,313,321,289,367
+2025-01-05,Northern,SKU013,Vitamin C 500mg,Supplement,197,164,182,184,211
+2025-01-12,Northern,SKU013,Vitamin C 500mg,Supplement,199,164,183,185,214
+2025-01-19,Northern,SKU013,Vitamin C 500mg,Supplement,193,164,180,179,207
+2025-01-26,Northern,SKU013,Vitamin C 500mg,Supplement,190,164,179,176,205
+2025-01-05,Sabaragamuwa,SKU013,Vitamin C 500mg,Supplement,104,114,109,90,118
+2025-01-12,Sabaragamuwa,SKU013,Vitamin C 500mg,Supplement,113,114,114,99,128
+2025-01-19,Sabaragamuwa,SKU013,Vitamin C 500mg,Supplement,128,114,121,113,143
+2025-01-26,Sabaragamuwa,SKU013,Vitamin C 500mg,Supplement,133,114,125,120,148
+2025-01-05,Southern,SKU013,Vitamin C 500mg,Supplement,217,243,229,189,245
+2025-01-12,Southern,SKU013,Vitamin C 500mg,Supplement,220,243,230,192,249
+2025-01-19,Southern,SKU013,Vitamin C 500mg,Supplement,226,243,234,197,255
+2025-01-26,Southern,SKU013,Vitamin C 500mg,Supplement,226,243,234,198,255
+2025-01-05,Uva,SKU013,Vitamin C 500mg,Supplement,109,92,102,99,118
+2025-01-12,Uva,SKU013,Vitamin C 500mg,Supplement,120,92,107,111,129
+2025-01-19,Uva,SKU013,Vitamin C 500mg,Supplement,119,92,107,109,127
+2025-01-26,Uva,SKU013,Vitamin C 500mg,Supplement,111,92,102,101,120
+2025-01-05,Western,SKU013,Vitamin C 500mg,Supplement,1033,1016,1025,904,1151
+2025-01-12,Western,SKU013,Vitamin C 500mg,Supplement,1165,1016,1098,1042,1296
+2025-01-19,Western,SKU013,Vitamin C 500mg,Supplement,1242,1016,1140,1116,1377
+2025-01-26,Western,SKU013,Vitamin C 500mg,Supplement,1231,1016,1134,1112,1354
+2025-01-05,Central,SKU014,Zinc Supplement,Supplement,149,147,148,132,166
+2025-01-12,Central,SKU014,Zinc Supplement,Supplement,157,147,153,140,173
+2025-01-19,Central,SKU014,Zinc Supplement,Supplement,155,147,151,138,170
+2025-01-26,Central,SKU014,Zinc Supplement,Supplement,145,147,146,130,161
+2025-01-05,Eastern,SKU014,Zinc Supplement,Supplement,99,88,94,89,111
+2025-01-12,Eastern,SKU014,Zinc Supplement,Supplement,96,88,92,84,108
+2025-01-19,Eastern,SKU014,Zinc Supplement,Supplement,92,88,91,81,104
+2025-01-26,Eastern,SKU014,Zinc Supplement,Supplement,92,88,90,80,103
+2025-01-05,North Central,SKU014,Zinc Supplement,Supplement,67,69,68,58,76
+2025-01-12,North Central,SKU014,Zinc Supplement,Supplement,70,69,69,60,80
+2025-01-19,North Central,SKU014,Zinc Supplement,Supplement,70,69,70,61,79
+2025-01-26,North Central,SKU014,Zinc Supplement,Supplement,69,69,69,59,78
+2025-01-05,North Western,SKU014,Zinc Supplement,Supplement,119,154,135,106,133
+2025-01-12,North Western,SKU014,Zinc Supplement,Supplement,122,154,137,108,136
+2025-01-19,North Western,SKU014,Zinc Supplement,Supplement,130,154,141,116,144
+2025-01-26,North Western,SKU014,Zinc Supplement,Supplement,138,154,145,124,152
+2025-01-05,Northern,SKU014,Zinc Supplement,Supplement,88,84,86,79,97
+2025-01-12,Northern,SKU014,Zinc Supplement,Supplement,88,84,86,78,97
+2025-01-19,Northern,SKU014,Zinc Supplement,Supplement,85,84,84,77,95
+2025-01-26,Northern,SKU014,Zinc Supplement,Supplement,82,84,83,74,91
+2025-01-05,Sabaragamuwa,SKU014,Zinc Supplement,Supplement,73,75,74,65,80
+2025-01-12,Sabaragamuwa,SKU014,Zinc Supplement,Supplement,77,75,76,70,85
+2025-01-19,Sabaragamuwa,SKU014,Zinc Supplement,Supplement,79,75,77,72,86
+2025-01-26,Sabaragamuwa,SKU014,Zinc Supplement,Supplement,78,75,77,71,85
+2025-01-05,Southern,SKU014,Zinc Supplement,Supplement,130,134,132,114,146
+2025-01-12,Southern,SKU014,Zinc Supplement,Supplement,138,134,136,123,153
+2025-01-19,Southern,SKU014,Zinc Supplement,Supplement,146,134,140,132,161
+2025-01-26,Southern,SKU014,Zinc Supplement,Supplement,150,134,143,136,167
+2025-01-05,Uva,SKU014,Zinc Supplement,Supplement,45,50,48,38,52
+2025-01-12,Uva,SKU014,Zinc Supplement,Supplement,44,50,47,37,50
+2025-01-19,Uva,SKU014,Zinc Supplement,Supplement,42,50,46,35,49
+2025-01-26,Uva,SKU014,Zinc Supplement,Supplement,39,50,44,32,46
+2025-01-05,Western,SKU014,Zinc Supplement,Supplement,498,531,513,436,564
+2025-01-12,Western,SKU014,Zinc Supplement,Supplement,545,531,539,483,610
+2025-01-19,Western,SKU014,Zinc Supplement,Supplement,603,531,571,540,662
+2025-01-26,Western,SKU014,Zinc Supplement,Supplement,629,531,585,569,690
+2025-01-05,Central,SKU015,Omeprazole 20mg,Gastrointestinal,200,186,194,180,220
+2025-01-12,Central,SKU015,Omeprazole 20mg,Gastrointestinal,225,186,207,204,245
+2025-01-19,Central,SKU015,Omeprazole 20mg,Gastrointestinal,222,186,206,201,241
+2025-01-26,Central,SKU015,Omeprazole 20mg,Gastrointestinal,198,186,193,177,218
+2025-01-05,Eastern,SKU015,Omeprazole 20mg,Gastrointestinal,133,103,120,120,146
+2025-01-12,Eastern,SKU015,Omeprazole 20mg,Gastrointestinal,157,103,133,144,171
+2025-01-19,Eastern,SKU015,Omeprazole 20mg,Gastrointestinal,162,103,136,149,177
+2025-01-26,Eastern,SKU015,Omeprazole 20mg,Gastrointestinal,152,103,130,138,166
+2025-01-05,North Central,SKU015,Omeprazole 20mg,Gastrointestinal,102,93,98,94,110
+2025-01-12,North Central,SKU015,Omeprazole 20mg,Gastrointestinal,105,93,99,97,113
+2025-01-19,North Central,SKU015,Omeprazole 20mg,Gastrointestinal,102,93,98,94,109
+2025-01-26,North Central,SKU015,Omeprazole 20mg,Gastrointestinal,97,93,95,89,105
+2025-01-05,North Western,SKU015,Omeprazole 20mg,Gastrointestinal,203,229,214,183,220
+2025-01-12,North Western,SKU015,Omeprazole 20mg,Gastrointestinal,209,229,218,189,229
+2025-01-19,North Western,SKU015,Omeprazole 20mg,Gastrointestinal,229,229,229,211,246
+2025-01-26,North Western,SKU015,Omeprazole 20mg,Gastrointestinal,244,229,237,224,264
+2025-01-05,Northern,SKU015,Omeprazole 20mg,Gastrointestinal,85,93,89,75,95
+2025-01-12,Northern,SKU015,Omeprazole 20mg,Gastrointestinal,81,93,87,72,91
+2025-01-19,Northern,SKU015,Omeprazole 20mg,Gastrointestinal,81,93,86,70,91
+2025-01-26,Northern,SKU015,Omeprazole 20mg,Gastrointestinal,84,93,88,74,94
+2025-01-05,Sabaragamuwa,SKU015,Omeprazole 20mg,Gastrointestinal,87,85,86,79,96
+2025-01-12,Sabaragamuwa,SKU015,Omeprazole 20mg,Gastrointestinal,86,85,86,79,94
+2025-01-19,Sabaragamuwa,SKU015,Omeprazole 20mg,Gastrointestinal,80,85,82,72,89
+2025-01-26,Sabaragamuwa,SKU015,Omeprazole 20mg,Gastrointestinal,77,85,81,69,86
+2025-01-05,Southern,SKU015,Omeprazole 20mg,Gastrointestinal,194,165,181,176,214
+2025-01-12,Southern,SKU015,Omeprazole 20mg,Gastrointestinal,204,165,186,185,224
+2025-01-19,Southern,SKU015,Omeprazole 20mg,Gastrointestinal,194,165,181,174,213
+2025-01-26,Southern,SKU015,Omeprazole 20mg,Gastrointestinal,176,165,171,158,195
+2025-01-05,Uva,SKU015,Omeprazole 20mg,Gastrointestinal,70,71,70,62,77
+2025-01-12,Uva,SKU015,Omeprazole 20mg,Gastrointestinal,70,71,71,62,77
+2025-01-19,Uva,SKU015,Omeprazole 20mg,Gastrointestinal,66,71,69,59,74
+2025-01-26,Uva,SKU015,Omeprazole 20mg,Gastrointestinal,61,71,66,53,69
+2025-01-05,Western,SKU015,Omeprazole 20mg,Gastrointestinal,913,667,802,842,986
+2025-01-12,Western,SKU015,Omeprazole 20mg,Gastrointestinal,1016,667,859,938,1085
+2025-01-19,Western,SKU015,Omeprazole 20mg,Gastrointestinal,1019,667,861,941,1087
+2025-01-26,Western,SKU015,Omeprazole 20mg,Gastrointestinal,944,667,820,871,1021
