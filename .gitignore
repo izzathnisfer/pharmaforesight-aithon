@@ -1,0 +1,33 @@
+# Environment & IDE
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Additional research & archive files
+.additional/
+Details.md
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Project specific (keep these tracked)
+!data/pharmacy_orders_v4.csv
+!data/health_signals_v4.csv
